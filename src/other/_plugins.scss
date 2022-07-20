@@ -1,5 +1,5 @@
 .creationDate-CJwdKT, .joinedAtDate-IawR02, .lastMessageDate-ocEw13 {
-    position: fixed !important;
+	position: fixed !important;
 	width: 300px;
 	margin-bottom: 5px;
 	margin-top: 10px;
@@ -26,11 +26,11 @@
 
 #MemberCount{
 	background-color: transparent !important;
-    text-transform: none;
-    padding: 10px 0;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-primary);
-    border-bottom: 1px solid var(--background-modifier-accent);
-    background: var(--background-mobile-secondary);
+	text-transform: none;
+	padding: 10px 0;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--font-primary);
+	border-bottom: 1px solid var(--background-modifier-accent);
+	background: var(--background-mobile-secondary);
 }

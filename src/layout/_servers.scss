@@ -49,10 +49,10 @@
 }
 
 @keyframes pulsate2{
-    0% {
+	0% {
 		filter: drop-shadow(0px 0px 0px var(--button-positive-background-active));
 	}
-    50% {
+	50% {
 		filter: drop-shadow(0px 0px 3px var(--button-positive-background-active));
 	}
 	100%{
