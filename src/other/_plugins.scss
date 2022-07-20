@@ -33,4 +33,10 @@
 	font-family: var(--font-primary);
 	border-bottom: 1px solid var(--background-modifier-accent);
 	background: var(--background-mobile-secondary);
+
+	h2{
+		display: flex;
+		justify-content: space-between;
+	}
 }
+
