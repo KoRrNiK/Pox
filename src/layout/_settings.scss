@@ -1,0 +1,144 @@
+#app-mount{
+	.layer-86YKbF {
+		.standardSidebarView-E9Pc3j {
+			.notificationSettings-1U0JsJ {
+				max-width: 45%;
+			}
+			
+			.option-2eIyOn, .searchBox-pyIJJj{
+				transition: 0.20s ease;
+			}
+
+			background-color: var(--background-tertiary);
+
+			.sidebarRegion-1VBisG {
+				margin: 15px;
+				border-radius: var(--pox-default-rounding);
+				background-color: var(--background-primary);
+
+				.sidebarRegionScroller-FXiQOh{
+					justify-content: unset;
+					flex: unset;
+					background-color: transparent;
+
+					.sidebar-nqHbhN{
+						.side-2ur1Qk{
+							.item-3XjbnG.selected-g-kMVV{
+								border-left: 2px solid var(--brand-experiment);
+								border-right: 2px solid var(--brand-experiment);
+							}
+							
+						}
+					}
+				}
+			}
+
+			.contentRegion-3HkfJJ{
+				margin: 15px 15px 15px 0;
+				border-radius: var(--pox-default-rounding);
+				background-color: var(--background-primary);
+
+				.contentRegionScroller-2_GT_N{
+					background-color: transparent;
+
+					.tools-kIrEGr {
+						right: 50px;
+						top: 55px;
+					}
+				}
+			}
+		}
+	}
+
+
+	.children-1xdcWE{
+		.accountProfileCard-lbN7n-{
+			
+			max-width: 750px;
+
+			.background-3d_SjE .fieldList-in8WkP{
+				
+				filter: blur(100px);
+				transition: filter .25s;
+
+				&:hover{
+					background: transparent;
+					filter:blur(0);
+					transition: filter .25s;
+				}
+
+			}
+
+		}
+
+		.authedApp-8q3NA9, .cardPrimary-3qRT__{
+		    background: var(--background-secondary);
+		}
+
+		.accountList-Wii_T5, .connection-YOVI9j{
+
+			border: 1px solid var(--background-tertiary);
+			
+			.integration-1qC-fv{
+				box-shadow: inset 0 0 3px var(--background-tertiary);
+			}
+		}
+
+		.children-1xdcWE{
+			.container-1zDvAE{
+				padding: 10px;
+				margin: 5px;
+				background: var(--background-secondary);
+				border: 1px solid var(--background-tertiary);
+				border-radius: var(--pox-app-rounding);
+
+				.divider-_0um2u.dividerDefault-3C2-ws{
+					border: none;
+					margin: 0;
+				}
+
+			}
+		}
+	}
+
+	.contentColumnDefault-3eyv5o{
+		.codeRedemptionRedirect-2hYMSQ{
+			background: var(--background-secondary);	
+		}
+	}
+
+	.contentColumn-1C7as6, .customColumn-2n-oKU, .hero-1aNo0v {
+		max-width: unset;
+	} 
+
+	.contentColumn-1C7as6{
+
+		.divider-_0um2u{
+			border: none;
+		}
+
+		.children-1xdcWE{
+			.defaultKeybind-1rEiTa, .itemFilled-1cPbtg{
+				padding: 10px;
+				margin: 5px;
+				background: var(--background-secondary);
+				border: 1px solid var(--background-tertiary);
+				border-radius: var(--pox-app-rounding);
+			}
+	
+		}
+
+		.container-1zDvAE{
+			.labelRow-2jl9gK{
+				padding: 10px;
+				margin: 5px;
+				background: var(--background-secondary);
+				border: 1px solid var(--background-tertiary);
+				box-shadow: 0 0 4px var(--background-tertiary);
+				border-radius: var(--pox-app-rounding);
+			}
+		}
+
+	}
+}
+

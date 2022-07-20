@@ -1,0 +1,54 @@
+ 
+.theme-dark, .theme-dark .root-g14mjS, .theme-dark .force-theme.theme-light,
+.theme-light, .theme-light .root-g14mjS, .theme-light .force-theme.theme-light {
+
+	--button-brand-background: hsl(var(--pox-accent-brand));
+	--button-brand-background-hover: hsl(45, 68%, 59%);
+	--button-brand-background-active: hsl(45, 60%, 48%);
+	--button-brand-background-disabled: hsl(45, 86%, 71%);
+	--button-red-background: hsl(var(--pox-accent-red));
+	--button-red-background-hover: hsl(0, 82%, 56%);
+	--button-red-background-active: hsl(0, 73%, 48%);
+	--button-red-background-disabled: hsl(0, 88%, 62%);
+	--button-green-background: hsl(135, 73%, 53%);
+	--button-green-background-hover: hsl(135, 64%, 45%);
+	--button-green-background-active: hsl(135, 64%, 35%);
+	--button-green-background-disabled: hsl(135, 66%, 53%);
+	--button-grey-background: hsl(var(--pox-accent-grey));
+	--button-grey-background-hover: #918EA6;
+	--button-grey-background-active: #ACA9BE;
+	--button-grey-background-disabled: #89869D;
+
+    --button-danger-background: var(--button-red-background);
+    --button-danger-background-hover: var(--button-red-background-hover);
+    --button-danger-background-active: var(--button-red-background-active);
+    --button-danger-background-disabled: var(--button-red-background-disabled);
+    --button-outline-danger-border: var(--button-red-background);
+    --button-outline-danger-border-hover: var(--button-red-background-hover);
+    --button-outline-danger-border-active: var(--button-red-background-active);
+    --button-outline-danger-background-hover: var(--button-red-background-hover);
+    --button-outline-danger-background-active: var(--button-red-background-active);
+    --button-outline-danger-background-disabled: var(--button-red-background-disabled);
+	
+	--button-positive-background: var(--button-green-background);
+    --button-positive-background-hover: var(--button-green-background-hover);
+    --button-positive-background-active: var(--button-green-background-active);
+    --button-positive-background-disabled: var(--button-green-background-disabled);
+    --button-outline-positive-border: var(--button-green-background);
+    --button-outline-positive-border-hover: var(--button-green-background-hover);
+    --button-outline-positive-border-active: var(--button-green-background-active);
+    --button-outline-positive-background-hover: var(--button-green-background-hover);
+    --button-outline-positive-background-active: var(--button-green-background-active);
+    --button-outline-positive-background-disabled: var(--button-green-background-disabled);
+
+ 	--button-secondary-background: var(--button-grey-background);
+    --button-secondary-background-hover: var(--button-grey-background-hover);
+    --button-secondary-background-active: var(--button-grey-background-active);
+    --button-secondary-background-disabled: var(--button-grey-background-disabled);
+    --button-outline-primary-border: var(--button-grey-background);
+    --button-outline-primary-border-hover: var(--button-grey-background-hover);
+    --button-outline-primary-border-active: var(--button-grey-background-active);
+    --button-outline-primary-background-hover: var(--button-grey-background-hover);
+    --button-outline-primary-background-active: var(--button-grey-background-active);
+
+}

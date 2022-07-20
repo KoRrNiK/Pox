@@ -1,0 +1,33 @@
+#app-mount {
+	.autocomplete-3NRXG8{
+		border-radius: var(--pox-default-rounding);
+		box-shadow: var(--elevation-stroke), var(--elevation-high);
+		padding: 10px;
+		margin-left: 5px;
+		background-color: var(--background-floating);
+	
+		.categoryHeader-OpJ1Ly {
+			background-color: var(--background-floating);
+		}
+
+		.option-c0n68t {
+			background-color: hsl(var(--pox-accent-blue));
+		}
+
+		.autocompleteRow-14iwvH {
+			
+			padding: 0;
+		
+			.base-2v-uc0 {
+			
+				border-radius: 0;
+				padding: 8px 16px;
+
+				.contentTitle-3CylD3{
+					padding: 5px 0;
+					border-bottom: 1px solid var(--background-modifier-accent);
+				}
+			}
+		}
+	}
+}

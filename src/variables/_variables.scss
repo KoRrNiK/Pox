@@ -1,0 +1,100 @@
+@use 'buttons';
+@use 'brand';
+
+:root {
+  
+	--pox-version: '1.0';
+	--pox-author: 'KoRrNiK#3933';
+
+    --winbutton-max-background: hsl(var(--pox-accent-green));
+    --winbutton-min-background: hsl(var(--pox-accent-yellow));
+    --winbutton-close-background: hsl(var(--pox-accent-red));
+
+	--pox-app-rounding: 6px;
+    --pox-app-padding: 18px;
+    --pox-default-rounding: 6px;
+    --pox-default-padding: 10px;
+
+	--container-rounding: 6px;
+    --pill-default-height: 20px;
+    --pill-unread-height: 4px;
+    --pill-hover-height: 14px;
+    --pill-default-background: hsl(var(--pox-accent-brand));
+    --pill-unread-background: hsl(var(--pox-accent-orange));
+    --pill-connected-background: hsl(var(--pox-accent-green));
+
+	--message-brand-pill: hsl(var(--pox-accent-brand));
+    --message-brand-background: hsla(var(--pox-accent-brand), 0.15);
+    --message-brand-background-hover: hsla(var(--pox-accent-brand), 0.25);
+    --message-mentioned-pill: hsl(var(--pox-accent-orange));
+    --message-mentioned-background: hsla(var(--pox-accent-orange), 0.15);
+    --message-mentioned-background-hover: hsla(var(--pox-accent-orange), 0.2);
+
+	--avatar-default-rounding: 10px;
+
+}
+
+
+.theme-dark, .theme-dark .root-g14mjS, .theme-dark .force-theme.theme-light,
+.theme-light, .theme-light .root-g14mjS, .theme-light .force-theme.theme-light {
+
+    --background-app: var(--pox-app);
+    --background-primary: var(--pox-primary);
+    --background-secondary: var(--pox-secondary);
+    --background-secondary-alt: var(--pox-alt);
+    --background-tertiary: var(--pox-tertiary);
+    --background-accent: var(--pox-bgaccent);
+    --background-floating: var(--pox-popouts);
+    --input-background: var(--pox-inputs);
+    --channeltextarea-background: var(--background-tertiary);
+    --modal-background: var(--pox-modals);
+    --modal-footer-background: var(--pox-modals);
+    --background-mobile-primary: var(--background-primary);
+    --background-mobile-secondary: var(--background-secondary);
+    --background-modifier-accent: rgb(var(--pox-modifier-rgb));
+    --background-modifier-accent-alt: rgba(var(--pox-modifier-rgb), 0.54);
+    --background-modifier-hover: rgba(var(--pox-modifier-rgb), 0.45);
+    --background-modifier-active: rgba(var(--pox-modifier-rgb), 0.6);
+    --background-modifier-selected: rgba(var(--pox-modifier-rgb), 0.8);
+
+    --deprecated-card-bg: var(--pox-card);
+    --deprecated-text-input-bg: var(--pox-inputs);
+    --deprecated-text-input-border: var(--pox-inputs);
+
+    --channel-icon: var(--pox-text-channels);
+    --channels-default: var(--pox-text-channels);
+    
+    --text-normal: var(--pox-text-primary);
+    --text-muted: var(--pox-text-muted);
+    --text-brand: hsl(var(--pox-accent-brand));
+    --text-link: hsl(var(--pox-accent-blue));
+    --text-link-low-saturation: var(--text-link);
+    --header-primary: var(--pox-text-primary);
+    --header-secondary: var(--pox-text-secondary);
+    --interactive-normal: var(--pox-interactive-secondary);
+    --interactive-hover: var(--pox-interactive-alt);
+    --interactive-active: var(--pox-interactive-primary);
+    --interactive-muted: var(--pox-interactive-muted);
+    --input-placeholder-text: var(--interactive-muted);
+
+
+    --text-danger: hsl(var(--pox-accent-red));
+    --status-danger: hsl(var(--pox-accent-red));
+    --info-danger-background: hsla(var(--pox-accent-red), 0.1);
+    --info-danger-foreground: hsl(var(--pox-accent-red));
+
+    --text-warning: hsl(var(--pox-accent-yellow));
+    --status-warning: hsl(var(--pox-accent-yellow));
+    --info-warning-background: hsla(var(--pox-accent-yellow), 0.1);
+    --info-warning-foreground: hsl(var(--pox-accent-yellow));
+    --status-warning-background: hsl(var(--pox-accent-yellow));
+
+    
+	--text-positive: hsl(var(--pox-accent-green));
+    --status-positive: hsl(var(--pox-accent-green));
+    --status-positive-background: hsl(var(--pox-accent-green));
+    --info-positive-background: hsl(var(--pox-accent-green), 0.1);
+    --info-positive-foreground: hsl(var(--pox-accent-green));
+
+
+}

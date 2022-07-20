@@ -1,0 +1,36 @@
+.creationDate-CJwdKT, .joinedAtDate-IawR02, .lastMessageDate-ocEw13 {
+    position: fixed !important;
+	width: 300px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	background-color: var(--background-secondary);
+	border:1px solid var(--background-tertiary);
+	border-radius: 20px;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0,0,0,.9);
+}
+
+.creationDate-CJwdKT { 
+	top: -75px;
+}
+.joinedAtDate-IawR02 { 
+	top: -55px;
+}
+.lastMessageDate-ocEw13 { 
+	top: -30px; margin-top: 0;
+}
+
+.ChannelDms-channelmembers-wrap .ChannelDms-channelmembers-header{
+	background-color: transparent !important;
+}
+
+#MemberCount{
+	background-color: transparent !important;
+    text-transform: none;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-primary);
+    border-bottom: 1px solid var(--background-modifier-accent);
+    background: var(--background-mobile-secondary);
+}

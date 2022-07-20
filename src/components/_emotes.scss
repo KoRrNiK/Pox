@@ -1,0 +1,23 @@
+#app-mount {
+	.positionLayer-1cndvf.layer-2aCOJ3{
+		.positionContainer-dMArNx{
+			.drawerSizingWrapper-1txdWG {
+
+				margin: -20px;
+
+				.contentWrapper-3vHNP2{
+					
+					margin: var(--pox-app-padding);
+					border-radius: var(--pox-app-rounding);
+					box-shadow: var(--pox-app-background-shadow);
+					border: 5px solid var(--background-tertiary);
+
+					&, .wrapper-1NNaWG, .inspector-DFKXwB, .wrapper-22rqw6{
+						background-color: var(--background-primary);
+					}
+
+				}
+			}
+		}
+	}
+}

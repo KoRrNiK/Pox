@@ -1,0 +1,43 @@
+#app-mount{
+	.sidebar-1tnWFu{
+		+ div{
+			margin: var(--pox-default-padding);
+			border-radius: var(--pox-default-rounding);
+			background-color: rgba(0,0,0,0);
+		}
+	}
+
+	.headerBar-1dSpQr{
+		margin-bottom: var(--pox-default-padding);
+		border-radius: var(--pox-default-rounding);
+
+		&::before{
+			box-shadow: none;
+			border-color: none;
+		}
+	}
+
+	.scroller-29cQFV{
+		border-radius: var(--pox-default-rounding);
+		background-color: var(--background-primary);
+	}
+}
+
+
+
+.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh {
+    justify-content         :               unset;
+    flex                    :               unset
+}
+.contentColumn-1C7as6, .customColumn-2n-oKU, .hero-1aNo0v {
+    max-width               :               unset;
+} 
+.accountProfileCard-lbN7n- {
+    max-width               :               750px;
+}
+.notificationSettings-1U0JsJ {
+    max-width               :               45%;
+}
+.option-2eIyOn, .searchBox-pyIJJj{
+    transition              :               0.20s ease;
+}
