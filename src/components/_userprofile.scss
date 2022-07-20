@@ -387,8 +387,8 @@
 
 		.rolesList-3uZoaa {
 
-			max-height: 100px;
-			overflow: auto;
+			/*max-height: 100px;
+			overflow: auto;*/
 			padding: 5px;
 			background: var(--background-tertiary);
 			padding: 10px;
@@ -399,8 +399,7 @@
 			}
 
 			.role-2TIOKu {
-
-				position: relative;
+				/*position: relative;
 				overflow: hidden;
 				z-index: 1;
 				border: solid;
@@ -412,8 +411,14 @@
 				border-bottom: solid;
 				border-radius: 3px;
 				border-width: 2px;
-				width: 100%;
-				clip-path: polygon(30% 0%, 70% 0%, 100% 5%, 100% 95%, 70% 100%, 30% 100%, 0 95%, 0 5%);
+				clip-path: polygon(30% 0%, 70% 0%, 100% 5%, 100% 95%, 70% 100%, 30% 100%, 0 95%, 0 5%);*/
+
+				position: relative;
+				overflow: hidden;
+				z-index: 1;
+				border: none;
+				background: transparent;
+				border-radius: 0;
 
 				.roleCircle-1EgnFN {
 
@@ -437,6 +442,27 @@
 					left: 8px;
 					position: absolute;
 				}
+
+				.roleCircle-3K9O3d:before{
+					content: '';
+					position: absolute;
+					background: inherit;
+					top: 0;
+					left: 0;
+					z-index: -1;
+					width: 100%;
+					height: 100%;
+					opacity: .3;
+					border-radius: 50px;
+				}
+
+				button{
+					background: var(--background-accent);
+					width: 32px;
+					border-radius: 32px;
+				}
+
+
 			}
 		}
 
