@@ -1,57 +1,53 @@
 :root {
-    --pox-theme-author: 'KoRrNiK#3933';
+
+	--pox-theme-author: 'KoRrNiK#3933';
 	--pox-theme-name: 'Pox';
 
 	--pox-theme-gradient-color-1: hsl(350, 100%, 55%);
 	--pox-theme-gradient-color-2: hsl(256, 86%, 58%);
 
-    --pox-theme-gradient: linear-gradient(70deg, var(--pox-theme-gradient-color-1), var(--pox-theme-gradient-color-2));
+	--pox-theme-gradient: linear-gradient(70deg, var(--pox-theme-gradient-color-1), var(--pox-theme-gradient-color-2));
 
 }
 
 .theme-dark, .theme-light {
-    
-    /* || Base Palette */
-    --pox-primary: hsl(240deg 15% 15%);
-    --pox-secondary: hsl(240deg 15% 20%);
-    --pox-alt: hsl(240deg 15% 25%);
-    --pox-tertiary: hsl(240deg 15% 11%);
-    --pox-app-background: hsl(240deg 15% 6%);
-    --pox-app-background-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
-    --pox-popouts: hsl(240deg 15% 9%);
-    --pox-modals: hsl(240deg 15% 16%);
-    --pox-bgaccent: hsl(240deg 15% 21%);
-    --pox-inputs: hsl(240deg 15% 7%);
-    --pox-card: var(--pox-tertiary);
-    --pox-scroller-thumb: hsl(var(--pox-accent-brand));
-    --pox-scroller-track: hsl(240deg 15% 20%);
-
-    /* || Text Colors */
-    --pox-text-primary: hsl(240deg 15% 91%);
-    --pox-text-secondary: hsl(240deg 10% 65%);
-    --pox-text-muted: hsl(240deg 10% 58%);
-    --pox-text-channels: hsl(240deg 10% 62%);
-
-    /* || Interactive Colors */
-    --pox-modifier-rgb: 46, 44, 66;
-    --pox-interactive-primary: hsl(240deg 15% 91%);
-    --pox-interactive-secondary: hsl(240deg 10% 73%);
-    --pox-interactive-alt: hsl(240deg 15% 75%);
-    --pox-interactive-muted: hsl(240deg 10% 41%);
-
-    /* || Accent Colors */
 	
-	--pox-accent-brand-saturated: 45, 74%, 97%;
-    --pox-accent-brand: 350, 100%, 74%;
-    --pox-accent-brand-alt: 45, 82%, 27%;
-    --pox-accent-red: 0, 100%, 67%;
-    --pox-accent-orange: 31, 100%, 71%;
-    --pox-accent-yellow: 65, 92%, 76%;
-    --pox-accent-green: 135, 94%, 65%;
-    --pox-accent-green-alt: 135, 72%, 26%;
-    --pox-accent-blue: 191, 97%, 77%;
-    --pox-accent-purple: 256, 89%, 78%;
-    --pox-accent-grey: 245, 11%, 52%;
 
+	--pox-primary: hsl(240deg 15% 15%);
+	--pox-secondary: hsl(240deg 15% 20%);
+	--pox-alt: hsl(240deg 15% 25%);
+	--pox-tertiary: hsl(240deg 15% 11%);
+	--pox-app-background: hsl(240deg 15% 6%);
+	--pox-app-background-shadow: 0px 3px 8px rgba(0, 0, 0, 0.25);
+	--pox-popouts: hsl(240deg 15% 9%);
+	--pox-modals: hsl(240deg 15% 16%);
+	--pox-bgaccent: hsl(240deg 15% 21%);
+	--pox-inputs: hsl(240deg 15% 7%);
+	--pox-card: var(--pox-tertiary);
+	--pox-scroller-thumb: hsl(var(--pox-accent-brand));
+	--pox-scroller-track: hsl(240deg 15% 20%);
+
+	--pox-text-primary: hsl(240deg 15% 91%);
+	--pox-text-secondary: hsl(240deg 10% 65%);
+	--pox-text-muted: hsl(240deg 10% 58%);
+	--pox-text-channels: hsl(240deg 10% 62%);
+
+	--pox-modifier-rgb: 46, 44, 66;
+	--pox-interactive-primary: hsl(240deg 15% 91%);
+	--pox-interactive-secondary: hsl(240deg 10% 73%);
+	--pox-interactive-alt: hsl(240deg 15% 75%);
+	--pox-interactive-muted: hsl(240deg 10% 41%);
+
+	--pox-accent-brand-saturated: 45, 74%, 97%;
+	--pox-accent-brand: 350, 100%, 74%;
+	--pox-accent-brand-alt: 45, 82%, 27%;
+	--pox-accent-red: 0, 100%, 67%;
+	--pox-accent-orange: 31, 100%, 71%;
+	--pox-accent-yellow: 65, 92%, 76%;
+	--pox-accent-green: 135, 94%, 65%;
+	--pox-accent-green-alt: 135, 72%, 26%;
+	--pox-accent-blue: 191, 97%, 77%;
+	--pox-accent-purple: 256, 89%, 78%;
+	--pox-accent-grey: 245, 11%, 52%;
 
 }
