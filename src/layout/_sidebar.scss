@@ -342,6 +342,9 @@
 				flex-direction: column;
 				background: linear-gradient(transparent, var(--background-tertiary) 15%);
 				border-radius: var(--pox-default-rounding);
+				display: grid;
+				grid-template-columns: 32px 32px;
+    			margin-bottom: 15px;
 				button{
 					margin: 5px;
 				}
