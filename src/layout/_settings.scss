@@ -1,3 +1,10 @@
+
+.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh{
+	display: flex;
+	justify-content: space-around;
+	max-width: 260px !important;
+}
+
 #app-mount{
 	.layer-86YKbF {
 		.standardSidebarView-E9Pc3j {
@@ -17,8 +24,8 @@
 				background-color: var(--background-primary);
 
 				.sidebarRegionScroller-FXiQOh{
-					justify-content: unset;
-					flex: unset;
+		
+
 					background-color: transparent;
 
 					.sidebar-nqHbhN{
