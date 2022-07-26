@@ -1,18 +1,19 @@
-
-.sidebarRegion-1VBisG, .sidebarRegionScroller-FXiQOh{
+.sidebarRegion-1VBisG,
+.sidebarRegionScroller-FXiQOh {
 	display: flex;
 	justify-content: space-around;
 	max-width: 260px !important;
 }
 
-#app-mount{
+#app-mount {
 	.layer-86YKbF {
 		.standardSidebarView-E9Pc3j {
 			.notificationSettings-1U0JsJ {
 				max-width: 45%;
 			}
-			
-			.option-2eIyOn, .searchBox-pyIJJj{
+
+			.option-2eIyOn,
+			.searchBox-pyIJJj {
 				transition: 0.20s ease;
 			}
 
@@ -23,29 +24,29 @@
 				border-radius: var(--pox-default-rounding);
 				background-color: var(--background-primary);
 
-				.sidebarRegionScroller-FXiQOh{
-		
+				.sidebarRegionScroller-FXiQOh {
+
 
 					background-color: transparent;
 
-					.sidebar-nqHbhN{
-						.side-2ur1Qk{
-							.item-3XjbnG.selected-g-kMVV{
+					.sidebar-nqHbhN {
+						.side-2ur1Qk {
+							.item-3XjbnG.selected-g-kMVV {
 								border-left: 2px solid var(--brand-experiment);
 								border-right: 2px solid var(--brand-experiment);
 							}
-							
+
 						}
 					}
 				}
 			}
 
-			.contentRegion-3HkfJJ{
+			.contentRegion-3HkfJJ {
 				margin: 15px 15px 15px 0;
 				border-radius: var(--pox-default-rounding);
 				background-color: var(--background-primary);
 
-				.contentRegionScroller-2_GT_N{
+				.contentRegionScroller-2_GT_N {
 					background-color: transparent;
 
 					.tools-kIrEGr {
@@ -53,24 +54,39 @@
 						top: 55px;
 					}
 				}
+
+				.contentTransitionWrap-1YD530 {
+					.contentColumn-1C7as6.contentColumnDefault-3eyv5o#my-account-tab {
+						.colorStandard-1Xxp1s.size14-k_3Hy4.description-30xx7u.formText-2ngGjI.marginBottom8-emkd0_.modeDefault-2fEh7a {
+							filter: blur(4px);
+							transition: filter .25s;
+
+							&:hover {
+								filter: blur(0);
+								transition: filter .25s;
+							}
+						}
+					}
+				}
+
 			}
 		}
 	}
 
 
-	.children-1xdcWE{
-		.accountProfileCard-lbN7n-{
-			
+	.children-1xdcWE {
+		.accountProfileCard-lbN7n- {
+
 			max-width: 750px;
 
-			.background-3d_SjE .fieldList-in8WkP{
-				
+			.background-3d_SjE .fieldList-in8WkP {
+
 				filter: blur(100px);
 				transition: filter .25s;
 
-				&:hover{
+				&:hover {
 					background: transparent;
-					filter:blur(0);
+					filter: blur(0);
 					transition: filter .25s;
 				}
 
@@ -78,28 +94,30 @@
 
 		}
 
-		.authedApp-8q3NA9, .cardPrimary-3qRT__{
+		.authedApp-8q3NA9,
+		.cardPrimary-3qRT__ {
 			background: var(--background-secondary);
 		}
 
-		.accountList-Wii_T5, .connection-YOVI9j{
+		.accountList-Wii_T5,
+		.connection-YOVI9j {
 
 			border: 1px solid var(--background-tertiary);
-			
-			.integration-1qC-fv{
+
+			.integration-1qC-fv {
 				box-shadow: inset 0 0 3px var(--background-tertiary);
 			}
 		}
 
-		.children-1xdcWE{
-			.container-1zDvAE{
+		.children-1xdcWE {
+			.container-1zDvAE {
 				padding: 10px;
 				margin: 5px;
 				background: var(--background-secondary);
 				border: 1px solid var(--background-tertiary);
 				border-radius: var(--pox-app-rounding);
 
-				.divider-_0um2u.dividerDefault-3C2-ws{
+				.divider-_0um2u.dividerDefault-3C2-ws {
 					border: none;
 					margin: 0;
 				}
@@ -108,35 +126,39 @@
 		}
 	}
 
-	.contentColumnDefault-3eyv5o{
-		.codeRedemptionRedirect-2hYMSQ{
-			background: var(--background-secondary);	
+	.contentColumnDefault-3eyv5o {
+		.codeRedemptionRedirect-2hYMSQ {
+			background: var(--background-secondary);
 		}
 	}
 
-	.contentColumn-1C7as6, .customColumn-2n-oKU, .hero-1aNo0v {
+	.contentColumn-1C7as6,
+	.customColumn-2n-oKU,
+	.hero-1aNo0v {
 		max-width: unset;
-	} 
+	}
 
-	.contentColumn-1C7as6{
+	.contentColumn-1C7as6 {
 
-		.divider-_0um2u{
+		.divider-_0um2u {
 			border: none;
 		}
 
-		.children-1xdcWE{
-			.defaultKeybind-1rEiTa, .itemFilled-1cPbtg{
+		.children-1xdcWE {
+
+			.defaultKeybind-1rEiTa,
+			.itemFilled-1cPbtg {
 				padding: 10px;
 				margin: 5px;
 				background: var(--background-secondary);
 				border: 1px solid var(--background-tertiary);
 				border-radius: var(--pox-app-rounding);
 			}
-	
+
 		}
 
-		.container-1zDvAE{
-			.labelRow-2jl9gK{
+		.container-1zDvAE {
+			.labelRow-2jl9gK {
 				padding: 10px;
 				margin: 5px;
 				background: var(--background-secondary);
@@ -148,4 +170,3 @@
 
 	}
 }
-
