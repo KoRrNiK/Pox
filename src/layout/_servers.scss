@@ -1,30 +1,28 @@
-
 #app-mount {
-	
-	.guilds-2JjMmN .scroller-3X7KbA  {
+	.guilds-2JjMmN .scroller-3X7KbA {
 		contain: none !important;
 		padding-bottom: 125px;
 	}
-	
+
 	.guilds-2JjMmN {
 		left: 4px;
 		width: 80px;
 		background-color: transparent;
+
 		&.hidden-10MsGQ {
 			left: 0px;
 			width: 0px;
 		}
-		
+
 		.unreadMentionsIndicatorTop-2bTgUU {
 			top: 2px;
 		}
-		
+
 		.scroller-3X7KbA {
 			margin-bottom: 132px;
 			padding-top: var(--pox-default-padding);
 			contain: unset;
 			background-color: transparent;
-
 
 			.wrapper-z5ab_q {
 				.item-2LIpTv {
@@ -37,25 +35,33 @@
 			}
 		}
 
-		.upperBadge-1V6Iyi{
-			.iconBadge-32fMme{
+		.upperBadge-1V6Iyi {
+			.iconBadge-32fMme {
 				background: var(--button-positive-background);
 				border: 1px solid var(--button-green-background-active);
 				animation: pulsate2 4s ease-out;
-				animation-iteration-count: infinite; 
+				animation-iteration-count: infinite;
 			}
 		}
 	}
 }
 
-@keyframes pulsate2{
+@keyframes pulsate2 {
 	0% {
-		filter: drop-shadow(0px 0px 0px var(--button-positive-background-active));
+		filter: drop-shadow(
+			0px 0px 0px var(--button-positive-background-active)
+		);
 	}
+
 	50% {
-		filter: drop-shadow(0px 0px 3px var(--button-positive-background-active));
+		filter: drop-shadow(
+			0px 0px 3px var(--button-positive-background-active)
+		);
 	}
-	100%{
-		filter: drop-shadow(0px 0px 0px var(--button-positive-background-active));
+
+	100% {
+		filter: drop-shadow(
+			0px 0px 0px var(--button-positive-background-active)
+		);
 	}
 }

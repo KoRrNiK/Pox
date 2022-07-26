@@ -1,24 +1,35 @@
 #app-mount {
-
 	.markup-eYLPri,
 	.hljs {
-
 		code:not(code.inline),
 		.modalContent-1zPatc {
 			box-shadow: 0 0 5px var(--background-tertiary);
-			background: var(--background-secondary) !important;
-			border: 1px solid var(--background-tertiary) !important;
+			background-color: var(--background-primary) !important;
+			border: 1px solid var(--background-secondary-alt) !important;
 			max-height: 500px;
 			padding: 10px;
+			border-radius: var(--pox-default-rounding);
 		}
-
 	}
 
-	.expanded-2Dcagv .hljs {
-		background: var(--background-secondary) !important;
+	.expanded-2Dcagv .hljs,
+	.textContainer-36wgKK,
+	.textContainer-36wgKK .hljs {
+		background-color: var(--background-primary) !important;
 	}
 
 	.modalContent-1zPatc .modalTextContainer-1FUO2W code {
-		background: var(--background-secondary) !important;
+		background-color: var(--background-primary) !important;
+	}
+
+	.footer-GXWBBp {
+		background-color: var(--background-tertiary) !important;
+	}
+
+	.messageAttachment-CZp8Iv {
+		.container-rr3Ruk {
+			box-shadow: 0 0 5px var(--background-tertiary);
+			border-radius: var(--pox-default-rounding);
+		}
 	}
 }

@@ -1,18 +1,19 @@
 :root {
-
-	--pox-theme-author: 'KoRrNiK#3933';
-	--pox-theme-name: 'Pox';
+	--pox-theme-author: "KoRrNiK#3933";
+	--pox-theme-name: "Pox";
 
 	--pox-theme-gradient-color-1: hsl(350, 100%, 55%);
 	--pox-theme-gradient-color-2: hsl(256, 86%, 58%);
 
-	--pox-theme-gradient: linear-gradient(70deg, var(--pox-theme-gradient-color-1), var(--pox-theme-gradient-color-2));
-
+	--pox-theme-gradient: linear-gradient(
+		70deg,
+		var(--pox-theme-gradient-color-1),
+		var(--pox-theme-gradient-color-2)
+	);
 }
 
-.theme-dark, .theme-light {
-	
-
+.theme-dark,
+.theme-light {
 	--pox-primary: hsl(240deg 15% 15%);
 	--pox-secondary: hsl(240deg 15% 20%);
 	--pox-alt: hsl(240deg 15% 25%);
@@ -49,5 +50,4 @@
 	--pox-accent-blue: 191, 97%, 77%;
 	--pox-accent-purple: 256, 89%, 78%;
 	--pox-accent-grey: 245, 11%, 52%;
-
 }

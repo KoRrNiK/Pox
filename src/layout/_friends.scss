@@ -1,43 +1,41 @@
 #app-mount {
-
-	.content-1SgpWY{
-		> :nth-child(2):not(.chat-2ZfjoI){
+	.content-1SgpWY {
+		> :nth-child(2):not(.chat-2ZfjoI) {
 			z-index: 2;
 		}
 	}
 
-	.container-2cd8Mz{
+	.container-2cd8Mz {
 		margin: var(--pox-default-padding);
 		border-radius: var(--pox-default-rounding);
-		background-color: rgba(0,0,0,0);
+		background-color: rgba(0, 0, 0, 0);
 
-		.container-ZMc96U{
+		.container-ZMc96U {
 			margin-bottom: var(--pox-default-padding);
 			border-radius: var(--pox-default-rounding);
 		}
-		
-		.tabBody-2dgbAs{
+
+		.tabBody-2dgbAs {
 			border-radius: var(--pox-default-rounding);
 			background-color: var(--background-primary);
 		}
 
-		.scroller-hE2gWq{
+		.scroller-hE2gWq {
 			border-left: none;
 		}
 
-		.peopleListItem-u6dGxF, .wrapper-2RrXDg{
+		.peopleListItem-u6dGxF,
+		.wrapper-2RrXDg {
 			border-top: 1px solid var(--background-modifier-accent);
 			background: var(--background-modifier-accent);
 			padding: 10px;
 			border-radius: 10px;
 			margin: 10px;
 
-			&:hover, .peopleListItem-u6dGxF.active-2UF8Zh{
+			&:hover,
+			.peopleListItem-u6dGxF.active-2UF8Zh {
 				background-color: var(--background-secondary);
 			}
 		}
-
 	}
 }
-
-

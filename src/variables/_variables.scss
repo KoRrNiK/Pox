@@ -1,10 +1,9 @@
-@use 'buttons';
-@use 'brand';
+@use "buttons";
+@use "brand";
 
 :root {
-  
-	--pox-version: '1.0.1';
-	--pox-author: 'KoRrNiK#3933';
+	--pox-version: "1.0.1";
+	--pox-author: "KoRrNiK#3933";
 
 	--winbutton-max-background: hsl(var(--pox-accent-green));
 	--winbutton-min-background: hsl(var(--pox-accent-yellow));
@@ -31,13 +30,14 @@
 	--message-mentioned-background-hover: hsla(var(--pox-accent-orange), 0.2);
 
 	--avatar-default-rounding: 10px;
-
 }
 
-
-.theme-dark, .theme-dark .root-g14mjS, .theme-dark .force-theme.theme-light,
-.theme-light, .theme-light .root-g14mjS, .theme-light .force-theme.theme-light {
-
+.theme-dark,
+.theme-dark .root-g14mjS,
+.theme-dark .force-theme.theme-light,
+.theme-light,
+.theme-light .root-g14mjS,
+.theme-light .force-theme.theme-light {
 	--background-app: var(--pox-app);
 	--background-primary: var(--pox-primary);
 	--background-secondary: var(--pox-secondary);
@@ -63,7 +63,7 @@
 
 	--channel-icon: var(--pox-text-channels);
 	--channels-default: var(--pox-text-channels);
-	
+
 	--text-normal: var(--pox-text-primary);
 	--text-muted: var(--pox-text-muted);
 	--text-brand: hsl(var(--pox-accent-brand));
@@ -77,7 +77,6 @@
 	--interactive-muted: var(--pox-interactive-muted);
 	--input-placeholder-text: var(--interactive-muted);
 
-
 	--text-danger: hsl(var(--pox-accent-red));
 	--status-danger: hsl(var(--pox-accent-red));
 	--info-danger-background: hsla(var(--pox-accent-red), 0.1);
@@ -89,12 +88,9 @@
 	--info-warning-foreground: hsl(var(--pox-accent-yellow));
 	--status-warning-background: hsl(var(--pox-accent-yellow));
 
-	
 	--text-positive: hsl(var(--pox-accent-green));
 	--status-positive: hsl(var(--pox-accent-green));
 	--status-positive-background: hsl(var(--pox-accent-green));
 	--info-positive-background: hsl(var(--pox-accent-green), 0.1);
 	--info-positive-foreground: hsl(var(--pox-accent-green));
-
-
 }

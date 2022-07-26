@@ -1,6 +1,10 @@
 #app-mount {
 	.layer-86YKbF .info-3pQQBb::after {
-		content: "\a POX " var(--pox-version, "unknown") " by " var(--pox-author, "unknown") "\a Style: " var(--pox-theme-name, "unknown") " by " var(--pox-theme-author, "unknown");
+		content: "\a POX "var(--pox-version, "unknown") " by " var(
+				--pox-author,
+				"unknown"
+			) "\a Style: "var(--pox-theme-name, "unknown") " by "
+			var(--pox-theme-author, "unknown");
 		white-space: pre-wrap;
 		display: inline-block;
 		width: 100%;

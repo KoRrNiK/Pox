@@ -1,8 +1,10 @@
-.item-1OdjEX.labelContainer-2vJzYL  .iconContainer-1-SsTR {
+.item-1OdjEX.labelContainer-2vJzYL .iconContainer-1-SsTR {
 	display: none;
 }
 
-.submenuContainer-3EVTeH .item-1OdjEX.labelContainer-2vJzYL  .iconContainer-1-SsTR {
+.submenuContainer-3EVTeH
+	.item-1OdjEX.labelContainer-2vJzYL
+	.iconContainer-1-SsTR {
 	display: block;
 }
 
@@ -22,7 +24,11 @@
 }
 
 .item-1OdjEX.colorDanger-3n-KnP::before {
-	background-color: hsl(359,calc(var(--saturation-factor, 1)*82.6%),59.4%);
+	background-color: hsl(
+		359,
+		calc(var(--saturation-factor, 1) * 82.6%),
+		59.4%
+	);
 }
 
 .focused-3qFvc8.colorDanger-3n-KnP:hover::before {
@@ -41,7 +47,7 @@
 	display: none;
 }
 
-#channel-attach .item-1OdjEX::before{
+#channel-attach .item-1OdjEX::before {
 	content: none;
 }
 
@@ -138,7 +144,7 @@
 
 /* Pin Message */
 #message-actions-pin::before,
-#message-pin::before  {
+#message-pin::before {
 	--icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M20.6211 8.45C19.5711 3.83 15.5411 1.75 12.0011 1.75C12.0011 1.75 12.0011 1.75 11.9911 1.75C8.46107 1.75 4.42107 3.82 3.37107 8.44C2.20107 13.6 5.36107 17.97 8.22107 20.72C9.28107 21.74 10.6411 22.25 12.0011 22.25C13.3611 22.25 14.7211 21.74 15.7711 20.72C18.6311 17.97 21.7911 13.61 20.6211 8.45Z'/%3E%3C/g%3E%3C/svg%3E") !important;
 	transform: rotate(30deg);
 	transform-origin: 50%;
@@ -331,5 +337,5 @@
 #user-context-voice-deafen::before,
 [id*="deafen"]::before {
 	--icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' enable-background='new 0 0 24 24' height='24px' viewBox='0 0 24 24' width='24px' fill='%23000000'%3E%3Cg%3E%3Crect fill='none' height='24' width='24'/%3E%3Cpath d='M5.94 12.4492H5.81C3.71 12.4492 2 14.1592 2 16.2592V18.1392C2 20.2392 3.71 21.9492 5.81 21.9492H5.94C8.04 21.9492 9.75 20.2392 9.75 18.1392V16.2592C9.75 14.1592 8.04 12.4492 5.94 12.4492Z M18.19 12.4492H18.06C15.96 12.4492 14.25 14.1592 14.25 16.2592V18.1392C14.25 20.2392 15.96 21.9492 18.06 21.9492H18.19C20.29 21.9492 22 20.2392 22 18.1392V16.2592C22 14.1592 20.29 12.4492 18.19 12.4492Z M2.74982 18.6508C2.33982 18.6508 1.99982 18.3108 1.99982 17.9008V12.2008C1.94982 9.49078 2.95982 6.93078 4.83982 5.01078C6.71982 3.10078 9.23982 2.05078 11.9498 2.05078C17.4898 2.05078 21.9998 6.56078 21.9998 12.1008V17.8008C21.9998 18.2108 21.6598 18.5508 21.2498 18.5508C20.8398 18.5508 20.4998 18.2108 20.4998 17.8008V12.1008C20.4998 7.39078 16.6698 3.55078 11.9498 3.55078C9.63982 3.55078 7.49982 4.44078 5.90982 6.06078C4.30982 7.69078 3.45982 9.86078 3.49982 12.1808V17.8908C3.49982 18.3108 3.16982 18.6508 2.74982 18.6508Z M2.74982 18.6508C2.33982 18.6508 1.99982 18.3108 1.99982 17.9008V12.2008C1.94982 9.49078 2.95982 6.93078 4.83982 5.01078C6.71982 3.10078 9.23982 2.05078 11.9498 2.05078C17.4898 2.05078 21.9998 6.56078 21.9998 12.1008V17.8008C21.9998 18.2108 21.6598 18.5508 21.2498 18.5508C20.8398 18.5508 20.4998 18.2108 20.4998 17.8008V12.1008C20.4998 7.39078 16.6698 3.55078 11.9498 3.55078C9.63982 3.55078 7.49982 4.44078 5.90982 6.06078C4.30982 7.69078 3.45982 9.86078 3.49982 12.1808V17.8908C3.49982 18.3108 3.16982 18.6508 2.74982 18.6508Z M21.7689 2.22891C21.4689 1.92891 20.9789 1.92891 20.6789 2.22891L2.22891 20.6889C1.92891 20.9889 1.92891 21.4789 2.22891 21.7789C2.37891 21.9189 2.56891 21.9989 2.76891 21.9989C2.96891 21.9989 3.15891 21.9189 3.30891 21.7689L21.7689 3.30891C22.0789 3.00891 22.0789 2.52891 21.7689 2.22891Z'/%3E%3C/g%3E%3C/svg%3E") !important;
-	transform: scale(0.9)
+	transform: scale(0.9);
 }
