@@ -1,5 +1,9 @@
 #app-mount {
 	.chat-2ZfjoI {
+		.group-spacing-16 .divider-IqmEqJ {
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+		}
 		.wrapper-30-Nkg {
 			.group-spacing-0.messagesWrapper-RpOMA3 {
 				.groupStart-3Mlgv1 {
@@ -51,7 +55,7 @@
 				}
 			}
 
-			[class*="group-spacing"].messagesWrapper-RpOMA3 {
+			[class*='group-spacing'].messagesWrapper-RpOMA3 {
 				.groupStart-3Mlgv1 {
 					margin-top: var(--group-spacing) !important;
 				}
@@ -135,7 +139,7 @@
 
 				&:before,
 				&:after {
-					content: " ";
+					content: ' ';
 					position: absolute;
 					width: 0;
 					height: 0;
@@ -581,7 +585,7 @@
 						&::after,
 						.wrapper-2SplAX::after {
 							position: absolute;
-							content: "";
+							content: '';
 							bottom: 0px;
 							left: -52px;
 							width: 44px;

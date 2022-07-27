@@ -1,0 +1,87 @@
+#app-mount {
+	.tooltip-14MtrL,
+	.subscribeTooltipWrapper-32-Ce8 {
+		padding: calc(var(--pox-default-padding) / 2) var(--pox-default-padding);
+		border-radius: var(--pox-default-rounding);
+		background: var(--background-secondary);
+		color: var(--text-normal);
+		border: 1px solid var(--background-tertiary);
+		filter: drop-shadow(0 0 5px var(--background-tertiary));
+		box-shadow: inset 0 0 2px var(--background-tertiary);
+		position: relative;
+		transform: none !important;
+
+		.tooltipContent-Nejnvh {
+			padding: 0;
+		}
+
+		&.subscribeTooltipWrapper-32-Ce8 {
+			padding: var(--pox-default-padding);
+			&:after {
+				margin: 0;
+				margin-left: -5px;
+			}
+			.subscribeTooltipHeader-2etyUq {
+				margin-bottom: calc(var(--pox-default-padding) / 2);
+				color: var(--text-normal);
+			}
+			.subscribeTooltipText-w-pylu {
+				margin: 0;
+				color: var(--text-muted);
+			}
+			.subscribeTooltipButton-r9C2rU {
+				margin-top: var(--pox-default-padding);
+			}
+		}
+
+		.tooltipPointer-3L49xb,
+		&.subscribeTooltipWrapper-32-Ce8:after {
+			background: var(--background-secondary);
+			box-shadow: inset 0 0 2px var(--background-tertiary);
+			border: 1px solid var(--background-tertiary);
+			width: 8px;
+			height: 8px;
+			clip-path: polygon(100% 0, 0% 100%, 0 0);
+		}
+
+		&.tooltipRight-2TSb42 .tooltipPointer-3L49xb {
+			transform: rotate(-45deg);
+			margin-right: -5px;
+		}
+
+		&.tooltipLeft-3H43DQ .tooltipPointer-3L49xb {
+			transform: rotate(135deg);
+			margin-left: -5px;
+		}
+
+		&.tooltipBottom-2WzfVx .tooltipPointer-3L49xb,
+		&.subscribeTooltipWrapper-32-Ce8:after {
+			transform: rotate(45deg);
+			margin-bottom: -5px;
+		}
+
+		&.tooltipTop-1wv5UJ .tooltipPointer-3L49xb {
+			transform: rotate(-135deg);
+			margin-top: -6px;
+		}
+
+		.size14-3fJ-ot {
+			color: var(--text-normal);
+			line-height: normal;
+			&.clickCTA-kIMiUd {
+				color: var(--text-muted);
+			}
+		}
+
+		.userTooltip-3rhC4_ {
+			color: var(--text-normal);
+			.avatar-2OcaMf {
+				margin-right: calc(var(--pox-default-padding) / 2);
+			}
+			.discriminator-3-qTC0 {
+				opacity: 1;
+				color: var(--text-muted);
+			}
+		}
+	}
+}
