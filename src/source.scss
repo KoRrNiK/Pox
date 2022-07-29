@@ -10,6 +10,7 @@
 @use 'layout/settings';
 @use 'layout/nitro';
 @use 'layout/forum';
+@use 'layout/create-sever';
 
 @use 'components/scrollers';
 @use 'components/notice';
@@ -21,5 +22,6 @@
 @use 'components/info';
 @use 'components/search';
 @use 'components/tooltips';
+@use 'components/color-picker';
 
 @use 'other/plugins';

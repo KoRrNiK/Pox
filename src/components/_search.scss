@@ -1,5 +1,15 @@
 #app-mount {
 	.container-2McqkF {
+		margin-right: 110px;
+		border-radius: var(--pox-default-rounding);
+		background-color: var(--background-floating);
+		.resultsGroup-cfY57t::before {
+			border-top-color: var(--background-modifier-accent-alt);
+		}
+		.focused-2FU0YH {
+			border-bottom: none;
+			background-color: var(--background-floating);
+		}
 		.option-ayUoaq {
 			margin: 0;
 			padding: 0 20px;

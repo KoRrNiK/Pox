@@ -1,0 +1,38 @@
+#app-mount {
+	.root-g14mjS {
+		box-shadow: none;
+		.container-1Lk8p7 {
+			background-color: var(--background-secondary);
+			border-radius: var(--pox-default-rounding);
+			border: 1px solid var(--background-tertiary);
+			box-shadow: none;
+
+			.header-1c1AhF,
+			.header-1zd7se {
+				padding: 5px;
+				background-color: var(--background-secondary-alt);
+				border-bottom: 1px solid var(--background-tertiary);
+				box-shadow: none;
+			}
+
+			.footerSeparator-VzAYwb {
+				padding: 5px;
+				background-color: var(--background-secondary-alt);
+				border-top: 1px solid var(--background-tertiary);
+				box-shadow: none;
+
+				.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+					width: 50%;
+					transform: translate(50%);
+				}
+			}
+
+			button.backButton-2Ps-B8,
+			button.button-f2h6uQ.lookBlank-21BCro.colorBrand-I6CyqQ.sizeMin-DfpWCE.grow-2sR_-F {
+				color: hsl(0, calc(var(--saturation-factor, 1) * 0%), 100%);
+				background-color: var(--button-secondary-background);
+				padding: 5px;
+			}
+		}
+	}
+}

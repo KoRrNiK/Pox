@@ -232,10 +232,12 @@
 					~ div {
 						margin: 0;
 						margin-top: 16px;
+						font-size: 13px;
 					}
 
 					.username-h_Y3Us {
 						margin-left: 10px;
+						font-size: 14px;
 					}
 
 					.timestamp-p1Df1m {
@@ -251,6 +253,7 @@
 				.markup-eYLPri {
 					margin-left: 0;
 					padding-left: 0;
+					font-size: 13px;
 				}
 
 				&:hover .timestamp-p1Df1m.alt-1dvXnH {
@@ -310,7 +313,7 @@
 					border-bottom: 1px solid var(--background-primary);
 					display: flex;
 					height: 27px;
-
+					font-size: 11px;
 					&:before {
 						transform: translateX(42px);
 					}
@@ -593,6 +596,10 @@
 							background-color: var(--channeltextarea-background);
 							border-radius: 50%;
 						}
+
+						.fontSize16Padding-XoMpjI {
+							font-size: 13px;
+						}
 					}
 
 					.attachedBars-2BCP3l {
@@ -632,17 +639,6 @@
 				margin-bottom: 10px;
 				border-radius: var(--pox-default-rounding);
 				background-color: var(--background-accent);
-				flex-direction: column;
-				clip-path: polygon(
-					50% 0%,
-					80% 10%,
-					98% 35%,
-					100% 100%,
-					50% 100%,
-					0 100%,
-					2% 35%,
-					20% 10%
-				);
 				bottom: -5px;
 				left: 14px;
 				right: 14px;
@@ -745,21 +741,10 @@
 			right: 5px;
 			top: 0px;
 			left: 0px;
-			height: 50px;
-			border-radius: var(--pox-default-rounding) 0 0 0;
+			border-radius: var(--pox-default-rounding) 0
+				var(--pox-default-rounding) 0;
 			background-size: 200% 200%;
 			background-image: var(--pox-theme-gradient);
-			flex-direction: column-reverse;
-			clip-path: polygon(
-				50% 0%,
-				100% 0,
-				98% 75%,
-				80% 90%,
-				50% 100%,
-				20% 90%,
-				2% 75%,
-				0 0
-			);
 		}
 
 		.wrapper-2vIMkT {

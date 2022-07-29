@@ -425,27 +425,23 @@
 				display: none;
 			}
 
+			.roleRemoveButton-17oXnT {
+				position: static;
+			}
+
 			.role-2TIOKu {
-				/*position: relative;
-				overflow: hidden;
-				z-index: 1;
-				border: solid;
-				border-style: solid;
-				border-left: 0;
-				border-right: 0;
-				border-top: 0;
-				border-width: 0 0 0 3px;
-				border-bottom: solid;
-				border-radius: 3px;
-				border-width: 2px;
-				clip-path: polygon(30% 0%, 70% 0%, 100% 5%, 100% 95%, 70% 100%, 30% 100%, 0 95%, 0 5%);*/
+				transform: translate(0);
 
 				position: relative;
 				overflow: hidden;
 				z-index: 1;
 				border: none;
 				background: transparent;
-				border-radius: 0;
+				border-radius: var(--pox-default-rounding);
+
+				.roleRemoveIcon-387wKV {
+					left: 14px;
+				}
 
 				.roleCircle-1EgnFN {
 					width: 10px !important;
