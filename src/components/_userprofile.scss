@@ -400,12 +400,20 @@
 			border-radius: var(--pox-app-rounding) var(--pox-app-rounding) 0 0;
 			-webkit-mask-image: linear-gradient(#000000c2, #000000c2);
 			mask-image: linear-gradient(#000000c2, #000000c2);
-			clip-path: polygon(
+			/*clip-path: polygon(
 				0 0,
 				100% 0,
 				100% calc(100% - 25px),
 				50% 100%,
 				0 calc(100% - 25px)
+			);*/
+			clip-path: polygon(
+				0 0,
+				100% 0,
+				100% 90%,
+				85% 100%,
+				15% 100%,
+				0 90%
 			);
 
 			&.bannerPremium-kkSkPv {
@@ -495,7 +503,18 @@
 
 			.headerTagWithNickname-1U8zZH,
 			.setIdentityLink-hOFsMl {
-				display: none;
+				position: static;
+				justify-content: center;
+				max-width: unset;
+				max-width: 100%;
+				border-radius: var(--pox-app-rounding);
+				display: flex;
+				margin: 0 auto 5px;
+
+				.headerTagUsernameBase-XYisdh,
+				.discrimBase-1VOoau {
+					color: var(--text-normal) !important;
+				}
 			}
 
 			.headerTagDiscriminatorNoNickname-dfcvHa {
@@ -547,7 +566,7 @@
 		.body-2wLx-E {
 			.activity-1gTu-L {
 				.button-f2h6uQ {
-					background-color: var(--main-color);
+					background-color: var(--text-normal);
 				}
 
 				.spotifyIcon-2J9kSv {
@@ -581,9 +600,15 @@
 			left: 50%;
 			margin: 15px 0 0 -50px;
 
+			.avatarHoverTarget-1zzfRL {
+				position: absolute;
+				left: 10px;
+			}
+
 			.avatar-2Vndt_ {
-				background: none;
-				border: none;
+				background: rgba(0 0 0 / 20%);
+				border: 1px solid rgba(0 0 0 / 20%);
+				filter: drop-shadow(2px 4px 6px rgba(0 0 0 / 50%));
 			}
 		}
 	}
@@ -591,8 +616,8 @@
 	.avatarWrapperNormal-ahVUaC:hover .avatarDecorationHint-3n-p6O,
 	.avatarWrapperNormal-ahVUaC:hover .avatarHint-k7pYop {
 		opacity: 1;
-		left: 0px;
-		top: 0px;
+		left: 11px;
+		top: 1px;
 	}
 
 	.body-u1Y8uL {
