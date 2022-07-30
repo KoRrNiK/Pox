@@ -445,7 +445,6 @@
 				z-index: 1;
 				border: none;
 				background: transparent;
-				border-radius: var(--pox-default-rounding);
 
 				.roleRemoveIcon-387wKV {
 					left: 14px;
@@ -463,7 +462,7 @@
 						width: 100%;
 						height: 100%;
 						background: inherit;
-						opacity: 0.3;
+						opacity: 0.2;
 						z-index: -1;
 					}
 				}
@@ -482,8 +481,22 @@
 					z-index: -1;
 					width: 100%;
 					height: 100%;
-					opacity: 0.3;
-					border-radius: 50px;
+					opacity: 0.2;
+					border-top-right-radius: var(--pox-default-rounding);
+					border-bottom-right-radius: var(--pox-default-rounding);
+				}
+				.roleCircle-3K9O3d::after {
+					content: '';
+					position: absolute;
+					background: inherit;
+					top: 0;
+					left: 0;
+					z-index: -1;
+					width: 3px;
+					height: 100%;
+					opacity: 0.5;
+					filter: blur(1px) saturate(2);
+					border-right: 1px solid rgba(0, 0, 0, 0.2);
 				}
 			}
 
