@@ -328,6 +328,15 @@
 					.userJoinSystemMessageIcon-3FQ_Mo {
 						margin-left: 42px;
 					}
+
+					~ div.contents-2MsGLg {
+						.header-2jRmjb {
+							.timestamp-p1Df1m {
+								animation: none !important;
+								margin-right: 0px !important;
+							}
+						}
+					}
 				}
 			}
 
@@ -657,6 +666,25 @@
 		}
 
 		.message-2CShn3 {
+			& .buttons-3dF5Kd {
+				max-width: 32px;
+				opacity: 0;
+				visibility: visible;
+				pointer-events: none;
+				transition: opacity 0.1s cubic-bezier(0.4, 0, 0.2, 1),
+					max-width 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+			}
+			&.selected-2LX7Jy .buttons-3dF5Kd,
+			&:hover .buttons-3dF5Kd {
+				max-width: 380px;
+				opacity: 1;
+				pointer-events: all;
+			}
+
+			.wrapper-2vIMkT .button-3bklZh {
+				transition: 0.1s ease all;
+			}
+
 			margin-left: 5px;
 			border-radius: var(--pox-default-rounding);
 
