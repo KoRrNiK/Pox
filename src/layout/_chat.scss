@@ -73,7 +73,7 @@
 				background-color: var(--background-secondary-alt) !important;
 
 				.timestamp-p1Df1m {
-					animation: marginAnimation 0.2s forwards;
+					animation: animationTime 0.2s forwards;
 				}
 			}
 
@@ -191,6 +191,10 @@
 					margin-top: calc(8px * -1);
 					padding: calc(8px / 2) 12px 8px 12px !important;
 
+					.timestamp-p1Df1m {
+						animation: none !important;
+					}
+
 					&:before,
 					&:after {
 						margin: -16px 0 0 0;
@@ -246,6 +250,8 @@
 
 					.timestamp-p1Df1m {
 						margin-right: 10px;
+						position: absolute;
+						right: 0;
 					}
 
 					.ownerIcon-255uKo {
@@ -671,8 +677,8 @@
 				opacity: 0;
 				visibility: visible;
 				pointer-events: none;
-				transition: opacity 0.1s cubic-bezier(0.4, 0, 0.2, 1),
-					max-width 0.1s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+				transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+					max-width 0.3s cubic-bezier(0.4, 0, 0.2, 1) 0.3s;
 			}
 			&.selected-2LX7Jy .buttons-3dF5Kd,
 			&:hover .buttons-3dF5Kd {
@@ -682,7 +688,7 @@
 			}
 
 			.wrapper-2vIMkT .button-3bklZh {
-				transition: 0.1s ease all;
+				transition: 0.3s ease all;
 			}
 
 			margin-left: 5px;
@@ -785,6 +791,8 @@
 		.wrapper-2vIMkT {
 			border-radius: var(--pox-default-rounding);
 			background-color: var(--background-floating);
+			top: -2.5px;
+			right: -13px;
 		}
 	}
 
@@ -815,8 +823,10 @@
 	color: var(--text-normal);
 }
 
-@keyframes marginAnimation {
+@keyframes animationTime {
 	100% {
-		margin-right: 150px;
+		left: 11px;
+		bottom: -3px;
+		font-size: 8.5px;
 	}
 }
