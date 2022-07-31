@@ -73,7 +73,7 @@
 				background-color: var(--background-secondary-alt) !important;
 
 				.timestamp-p1Df1m {
-					animation: animationTime 0.2s forwards;
+					animation: animationTime 0.3s forwards;
 				}
 			}
 
@@ -855,9 +855,9 @@
 }
 
 @keyframes animationTime {
-	100% {
+	to {
 		left: 11px;
-		bottom: -3px;
-		font-size: 8.5px;
+		bottom: -5px;
+		font-size: 8px;
 	}
 }
