@@ -326,6 +326,11 @@
 
 	.unread-2wipsx {
 		color: var(--text-normal);
+		border: 1px solid var(--brand-experiment-50a);
+		box-shadow: 0 0 5px var(--brand-experiment-20a),
+			inset 0 0 5px var(--background-floating);
+		border-radius: var(--pox-default-rounding);
+		background-color: var(--background-primary);
 	}
 
 	.panels-3wFtMD {

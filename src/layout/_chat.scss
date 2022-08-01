@@ -4,6 +4,29 @@
 			margin-top: 1rem;
 			margin-bottom: 1rem;
 		}
+
+		.container-1yy5xN {
+			h1 {
+				font-size: 20px;
+			}
+
+			.description-22d6ux {
+				font-size: 13px;
+			}
+
+			.channelSettingButtons-sCQ_2T {
+				.text-md-normal-304U3g {
+					font-size: 12px;
+				}
+			}
+
+			.members-1CYCy_ {
+				span {
+					font-size: 13px;
+				}
+			}
+		}
+
 		.wrapper-30-Nkg {
 			.group-spacing-0.messagesWrapper-RpOMA3 {
 				.groupStart-3Mlgv1 {
@@ -346,6 +369,10 @@
 				}
 			}
 
+			.content-vSHmMD {
+				font-size: 14px !important;
+			}
+
 			&.compact-2Nkcau {
 				margin-bottom: 0;
 				padding-right: 8px !important;
@@ -566,6 +593,15 @@
 		.container-ZMc96U {
 			margin-bottom: var(--pox-default-padding);
 			border-radius: var(--pox-default-rounding);
+
+			.children-3xh0VB {
+				h3 {
+					font-size: 13px;
+				}
+				.topic-11NuQZ.expandable-3CaLeS {
+					font-size: 12px;
+				}
+			}
 		}
 
 		margin: var(--pox-default-padding);
@@ -857,7 +893,7 @@
 @keyframes animationTime {
 	to {
 		left: 11px;
-		bottom: -5px;
+		bottom: -4px;
 		font-size: 8px;
 	}
 }

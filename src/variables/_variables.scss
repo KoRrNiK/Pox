@@ -6,7 +6,16 @@
 *,
 *::before,
 *::after {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+::selection {
+	color: var(--brand-experiment-70a) !important;
+	background-color: var(--brand-experiment-10a) !important;
+}
+a::selection {
+	color: hsl(var(--pox-accent-blue)) !important;
+	background-color: hsl(var(--pox-accent-blue), 0.5) !important;
 }
 
 :root {

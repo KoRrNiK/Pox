@@ -1,0 +1,33 @@
+#app-mount {
+	.embedFull-1HGV2S {
+		box-shadow: 0 0 5px var(--background-tertiary);
+		background-color: var(--background-primary) !important;
+		border-right: 1px solid var(--background-secondary-alt) !important;
+		border-bottom: 1px solid var(--background-secondary-alt) !important;
+		border-top: 1px solid var(--background-secondary-alt) !important;
+		max-height: 500px;
+		padding: 10px;
+		border-radius: 0px var(--pox-default-rounding)
+			var(--pox-default-rounding) 0px;
+
+		.embedProvider-1GSN0c {
+			font-size: 10px;
+			margin-top: -10px;
+		}
+
+		.embedAuthor-TJIHp5 {
+			font-size: 11px;
+			margin-top: -1px;
+		}
+
+		.embedTitle-2n1pEb {
+			font-size: 12px;
+			margin-top: -1px;
+			margin-bottom: -10px;
+		}
+
+		.imageWrapper-oMkQl4 {
+			border-radius: var(--pox-default-rounding);
+		}
+	}
+}

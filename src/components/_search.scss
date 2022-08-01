@@ -1,9 +1,23 @@
 #app-mount {
-	.searchFilter-2UfsDk {
+	.searchHeader-1r_ZSh {
+		.totalResults-2On644 {
+			.text-md-normal-304U3g {
+				font-size: 13px;
+			}
+		}
+
+		.item-3XjbnG {
+			font-size: 12px;
+		}
+	}
+
+	.searchFilter-2UfsDk,
+	.searchAnswer-23w-CH {
 		background-color: var(--background-secondary);
 	}
 
 	.container-2McqkF {
+		font-size: 13px;
 		margin-right: 110px;
 		border-radius: var(--pox-default-rounding);
 		background-color: var(--background-floating);
@@ -16,8 +30,9 @@
 		}
 		.option-ayUoaq {
 			margin: 0;
-			padding: 0 20px;
+			padding: 0 15px;
 			border-radius: 0;
+			font-size: 11px;
 
 			&::after {
 				background: none;

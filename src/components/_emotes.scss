@@ -40,4 +40,30 @@
 			background-color: var(--background-accent);
 		}
 	}
+
+	.animatorLeft-3yvG13.translate-PeW1wK.didRender-2SiRlm {
+		#emoji-picker-tab-panel {
+			.wrapper-22rqw6 {
+				background-color: var(--background-primary);
+			}
+			.categoryList-2qRrlj {
+				top: 62px;
+				bottom: 4px;
+				left: 5px;
+				width: 48px;
+			}
+
+			.emojiPicker-6YCk8a {
+				border-radius: var(--pox-app-rounding);
+				box-shadow: var(--pox-app-background-shadow);
+				border: 5px solid var(--background-tertiary);
+				background-color: var(--background-primary);
+
+				.inspector-DFKXwB,
+				.wrapper-1NNaWG {
+					background-color: var(--background-primary);
+				}
+			}
+		}
+	}
 }
