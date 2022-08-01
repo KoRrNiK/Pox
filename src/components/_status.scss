@@ -19,3 +19,7 @@ $status: 'Logo Twitter' hsla(200, 90%, 50%, 0.2),
 		box-shadow: inset 0 0 3px $color;
 	}
 }
+
+img[alt='Logo Twitch'] {
+	content: url('https://korrnik.github.io/Pox/svg/twitch.svg') !important;
+}
