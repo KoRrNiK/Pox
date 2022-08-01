@@ -407,14 +407,14 @@
 				50% 100%,
 				0 calc(100% - 25px)
 			);*/
-			clip-path: polygon(
+			/*clip-path: polygon(
 				0 0,
 				100% 0,
 				100% 90%,
 				85% 100%,
 				15% 100%,
 				0 90%
-			);
+			);*/
 
 			&.bannerPremium-kkSkPv {
 				background-color: transparent !important;
@@ -508,21 +508,23 @@
 		}
 
 		.headerTop-3GPUSF {
-			display: flex;
-			flex-direction: column-reverse;
-			text-align: center;
-			padding-top: 110px;
-			padding-bottom: 70px;
+			/*position: static;
+			bottom: 0px;
+			top: 0px;
+			left: 0px;
+			right: 10px;*/
+			margin-top: 123.5px;
+			padding-right: 5px;
 
 			.headerTagWithNickname-1U8zZH,
 			.setIdentityLink-hOFsMl {
-				position: static;
+				/*position: static;
 				justify-content: center;
 				max-width: unset;
 				max-width: 100%;
 				border-radius: var(--pox-app-rounding);
 				display: flex;
-				margin: 0 auto 5px;
+				margin: 0 auto 5px;*/
 
 				.headerTagUsernameBase-XYisdh,
 				.discrimBase-1VOoau {
@@ -536,7 +538,9 @@
 			}
 
 			.profileBadges-2pItdR:not(:empty) {
-				position: static;
+				top: 40px;
+				right: 5px;
+				/*position: static;
 				justify-content: center;
 				max-width: unset;
 				background-color: rgba(0, 0, 0, 0.2);
@@ -552,10 +556,20 @@
 
 				&:empty {
 					margin-bottom: 20px;
-				}
+				}*/
 			}
 
 			.headerText-1-WmDq {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+				position: static;
+				justify-content: center;
+				max-width: unset;
+				right: 0;
+				left: 10px;
+				bottom: 0;
+				top: -10px;
 				margin-bottom: 8px;
 			}
 		}
@@ -578,6 +592,7 @@
 		}
 
 		.body-2wLx-E {
+			padding-top: 10px;
 			.activity-1gTu-L {
 				.button-f2h6uQ {
 					background-color: hsl(var(--pox-accent-green), 0.2);
@@ -620,6 +635,14 @@
 						padding: 5px;
 					}
 				}
+
+				.userInfoBody-1zgAd0.markup-eYLPri.clamped-2ZePhX {
+					overflow: auto;
+
+					&::-webkit-scrollbar {
+						display: none;
+					}
+				}
 			}
 
 			&::-webkit-scrollbar {
@@ -628,10 +651,12 @@
 		}
 
 		.avatarWrapper-eenWra {
-			top: 0;
-			left: 50%;
-			margin: 15px 0 0 -50px;
-
+			bottom: 0;
+			top: 155px;
+			left: 0;
+			//top: 0;
+			//left: 50%;
+			//margin: 15px 0 0 -50px;
 			.avatarHoverTarget-1zzfRL {
 				position: absolute;
 				left: 10px;
