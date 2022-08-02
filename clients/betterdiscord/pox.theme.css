@@ -1,0 +1,25 @@
+/**
+	* @name Pox
+	* @description A smooth, dark, rounded and compact theme.
+	* @author KoRrNiK#3933
+	* @authorId 292279578389643264
+	* @version 1.0.2
+	* @website https://github.com/KoRrNiK/Pox
+	* @source https://github.com/KoRrNiK/Pox
+	* @updateUrl https://korrnik.github.io/Pox/pox.theme.css
+**/
+
+/* 
+		-『 🔍 ADDONS 』-
+*/
+@import url('https://korrnik.github.io/Pox/src/utilities.css');
+
+/* 
+		-『 🎨 THEME 』-
+*/
+@import url('https://korrnik.github.io/Pox/src/themes/pox.css');
+
+/*
+		-『 🔧 SOURCE 』-  
+*/
+@import url('https://korrnik.github.io/Pox/css/source.css');

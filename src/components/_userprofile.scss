@@ -540,6 +540,18 @@
 			.profileBadges-2pItdR:not(:empty) {
 				top: 40px;
 				right: 5px;
+				padding: 2px;
+				background-color: rgba(0, 0, 0, 0.15);
+				border-radius: var(--pox-default-rounding);
+
+				& > * {
+					margin: 0;
+				}
+
+				img {
+					filter: drop-shadow(0px 0px 15px black) saturate(1.5);
+				}
+
 				/*position: static;
 				justify-content: center;
 				max-width: unset;
