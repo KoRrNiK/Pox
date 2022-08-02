@@ -11,6 +11,12 @@
 ```
 git clone https://github.com/KoRrNiK/Pox
 ```
+### Stylus
+1. Install the browser extension for your respective browser.
+    - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+    - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
+2. Once you downloaded the extension, click [this link](https://github.com/KoRrNiK/Pox/raw/main/clients/stylus/pox.user.css).
+3. After opening the page press the `Install Style` button.
 
 
 ### Included Addons
