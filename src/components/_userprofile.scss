@@ -613,24 +613,6 @@
 
 		.body-2wLx-E {
 			padding-top: 10px;
-			.activity-1gTu-L {
-				.button-f2h6uQ {
-					background-color: hsl(var(--pox-accent-green), 0.2);
-					border: 1px solid hsl(var(--pox-accent-green), 0.4);
-					box-shadow: inset 0 0 5px hsl(var(--pox-accent-green), 0.3);
-
-					&:hover {
-						background-color: hsl(var(--pox-accent-green), 0.4);
-						border: 1px solid hsl(var(--pox-accent-green), 0.6);
-						box-shadow: inset 0 0 5px
-							hsl(var(--pox-accent-green), 0.5);
-					}
-				}
-
-				.spotifyIcon-2J9kSv {
-					display: none;
-				}
-			}
 
 			.bodyInnerWrapper-2bQs1k {
 				padding-right: 16px;
@@ -640,7 +622,6 @@
 				}
 
 				.userInfoSection-3her-v.userInfoBody-1zgAd0,
-				.body-u1Y8uL,
 				.connections-pPr4as,
 				.userInfoBody-1zgAd0.markup-eYLPri.clamped-2ZePhX,
 				.customStatus-3XAoF9,
@@ -701,9 +682,7 @@
 	}
 
 	.body-u1Y8uL {
-		background: var(--background-tertiary);
-		padding: 10px;
-		border-radius: var(--pox-app-rounding);
+		background-color: transparent !important;
 	}
 }
 
