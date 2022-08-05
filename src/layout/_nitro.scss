@@ -21,18 +21,27 @@
 		border-radius: var(--pox-default-rounding);
 		background-color: var(--background-primary);
 	}
+
+	.ctaBar-Nhk8yY {
+		background-color: var(--background-tertiary);
+	}
 }
 
 .root-2zfUH6.enterDone-menWZ8 {
-	margin: 40px !important;
-
 	.tierBody-3ju-rc,
 	.perk-19D_HN {
-		background-color: var(--background-secondary);
+		background-color: var(--background-tertiary);
+	}
+
+	.closeButton-PCZcma {
+		border: none;
+	}
+	.keybind-13vtq8 {
+		display: none;
 	}
 }
 
 .perksModal-CLcR1c {
 	background-image: none !important;
-	background-color: transparent !important;
+	background-color: var(--pox-app-background) !important;
 }
