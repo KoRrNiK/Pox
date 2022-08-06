@@ -5,6 +5,16 @@
 		}
 	}
 
+	.content-2a4AW9
+		.peopleListItem-u6dGxF
+		.listItemContents-2n2Uy9
+		.userInfo-2WpsYG
+		.text-3j8t_e
+		.subtext-xfubwR
+		.text-MPIeXO {
+		font-size: 11px !important;
+	}
+
 	.container-2cd8Mz {
 		margin: var(--pox-default-padding);
 		border-radius: var(--pox-default-rounding);
@@ -13,6 +23,15 @@
 		.container-ZMc96U {
 			margin-bottom: var(--pox-default-padding);
 			border-radius: var(--pox-default-rounding);
+
+			.children-3xh0VB {
+				h3 {
+					font-size: 12px;
+				}
+				.item-3mHhwr {
+					font-size: 11px;
+				}
+			}
 		}
 
 		.tabBody-2dgbAs {
@@ -22,6 +41,9 @@
 
 		.scroller-hE2gWq {
 			border-left: none;
+			h3 {
+				font-size: 15px;
+			}
 		}
 
 		.peopleListItem-u6dGxF,
@@ -35,6 +57,35 @@
 			&:hover,
 			.peopleListItem-u6dGxF.active-2UF8Zh {
 				background-color: var(--background-secondary);
+			}
+		}
+
+		.body-16rSsp {
+			.section-3G9aLW {
+				.voiceSection-3CNgD8 {
+					.voiceSectionDetails-3jGIB4 {
+						.defaultColor-24IHKz {
+							font-size: 11px;
+						}
+					}
+				}
+
+				.activitySection-20iylG {
+					.defaultColor-24IHKz {
+						font-size: 11px;
+					}
+				}
+			}
+		}
+
+		.wrapper-2RrXDg {
+			header {
+				.defaultColor-24IHKz {
+					font-size: 12px;
+				}
+				.textContent-TsKzji {
+					font-size: 11px;
+				}
 			}
 		}
 	}

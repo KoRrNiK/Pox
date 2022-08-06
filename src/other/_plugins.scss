@@ -55,3 +55,67 @@
 		font-size: 9px;
 	}
 }
+
+.bd-error-modal {
+	.bd-error-modal-header {
+		border-radius: var(--pox-default-rounding) var(--pox-default-rounding) 0
+			0 !important;
+		margin: 0;
+		padding: 20px;
+		background-color: var(--background-secondary-alt);
+		border-bottom: 5px solid var(--background-secondary);
+		h4 {
+			font-size: 13px;
+		}
+
+		.bd-tab-bar {
+			.bd-tab-item {
+				font-size: 12px;
+			}
+		}
+	}
+
+	.bd-error-modal-content {
+		margin: 20px;
+		.bd-addon-errors {
+			.bd-addon-error.collapsed {
+				opacity: 0.5;
+				border: 1px solid var(--background-primary);
+				border-radius: var(--pox-default-rounding);
+				box-shadow: inset 0 0 5px var(--background-secondary-alt) !important;
+				.bd-addon-error-header {
+					background-color: var(--background-secondary);
+					border-radius: var(--pox-default-rounding);
+				}
+			}
+
+			.bd-addon-error.expanded {
+				border: 1px solid var(--background-primary);
+				border-radius: var(--pox-default-rounding);
+				box-shadow: inset 0 0 5px var(--background-secondary-alt) !important;
+				.bd-addon-error-header {
+					background-color: var(--background-secondary);
+					border-radius: var(--pox-default-rounding)
+						var(--pox-default-rounding) 0 0;
+				}
+
+				.bd-addon-error-body {
+					background-color: var(--background-secondary);
+					border-radius: 0 0 var(--pox-default-rounding)
+						var(--pox-default-rounding);
+				}
+				.bd-addon-error-stack code {
+					border: 1px solid var(--background-primary);
+					background-color: var(
+						--background-secondary-alt
+					) !important;
+					box-shadow: inset 0 0 5px var(--background-secondary) !important;
+				}
+			}
+		}
+	}
+
+	button {
+		font-size: 12px;
+	}
+}
