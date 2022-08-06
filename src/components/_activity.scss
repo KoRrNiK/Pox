@@ -92,10 +92,8 @@
 	}
 
 	.platformIcon-k3yytQ {
-		margin: 5px 5px 0px 0px;
-		path {
-			fill: (var(--text-color));
-		}
+		display: none !important;
+		opacity: 0;
 	}
 
 	.button-TGAkj4.button-f2h6uQ {
@@ -157,7 +155,4 @@
 .activityProfile-1712BN {
 	margin: 10px;
 	border-radius: var(--pox-default-rounding);
-	.platformIcon-k3yytQ {
-		margin: 0px;
-	}
 }

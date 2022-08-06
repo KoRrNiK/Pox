@@ -1,4 +1,34 @@
 #app-mount {
+	.wrapper-1z1z-S {
+		background: linear-gradient(
+			45deg,
+			hsla(269 52.7% 52.7% / 40%),
+			hsla(296 50% 51.4% / 40%) 50%,
+			hsla(325 31.7% 51.8% / 40%)
+		);
+
+		.cta-1idp93 {
+			border-radius: var(--pox-default-rounding);
+			background: linear-gradient(
+				45deg,
+				hsla(269 52.7% 52.7% / 60%),
+				hsla(296 50% 51.4% / 60%) 50%,
+				hsla(325 31.7% 51.8% / 60%)
+			);
+			border: 1px solid hsla(325 31.7% 51.8% / 30%);
+			box-shadow: inset 0 0 5px hsla(325 31.7% 51.8% / 80%);
+			margin: 5px;
+			.copy-1zzTJH,
+			.copy-1zzTJH u {
+				font-size: 12px;
+				text-decoration: none;
+			}
+		}
+		.dismiss-25380L {
+			right: 5px;
+		}
+	}
+
 	.root-8LYsGj {
 		overflow: visible;
 		border-radius: 0;
