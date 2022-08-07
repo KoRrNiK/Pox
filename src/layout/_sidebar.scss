@@ -343,6 +343,11 @@
 			margin: 5px;
 			height: 0;
 
+			.withTagAsButton-OsgQ9L:hover,
+			.withTagless-10ooWt:hover {
+				border-radius: 50% !important;
+			}
+
 			> .avatarWrapper-1B9FTW {
 				position: fixed;
 				bottom: 58px;
@@ -355,7 +360,6 @@
 				& > .avatar-1EWyVD {
 					width: 32px !important;
 					height: 32px !important;
-
 					&:hover {
 						opacity: 1;
 					}
