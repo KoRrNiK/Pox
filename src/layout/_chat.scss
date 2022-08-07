@@ -298,6 +298,13 @@
 					margin-left: 0;
 					padding-left: 0;
 					font-size: 13px;
+					& code.inline {
+						box-shadow: 0 0 5px var(--background-tertiary);
+						background-color: var(--background-primary) !important;
+						border: 1px solid var(--background-secondary-alt) !important;
+						border-radius: var(--pox-default-rounding);
+						padding: 2px 7px 2px 7px;
+					}
 				}
 
 				&:hover .timestamp-p1Df1m.alt-1dvXnH {
@@ -659,7 +666,7 @@
 							position: absolute;
 							content: '';
 							bottom: 0px;
-							left: -52px;
+							left: -59px;
 							width: 44px;
 							height: 44px;
 							background-color: var(--channeltextarea-background);
