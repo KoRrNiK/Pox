@@ -1,5 +1,6 @@
 .appMount-2yBXZl {
 	background-color: var(--pox-app-background);
+	box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
 }
 
 .app-2CXKsg {
@@ -12,7 +13,10 @@
 	.layers-OrUESM {
 		margin: var(--pox-app-padding);
 		border-radius: var(--pox-app-rounding);
-		box-shadow: var(--pox-app-background-shadow);
+		border: 1px solid rgba(0 0 0 / 30%);
+		box-shadow: inset 0 0 10px rgb(0 0 0 / 40%),
+			var(--pox-app-background-shadow);
+
 		background-color: var(--background-tertiary);
 		-webkit-app-region: no-drag;
 

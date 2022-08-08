@@ -23,7 +23,8 @@
 		.container-ZMc96U {
 			margin-bottom: var(--pox-default-padding);
 			border-radius: var(--pox-default-rounding);
-
+			border: 1px solid rgba(0 0 0 / 30%);
+			box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
 			.children-3xh0VB {
 				h3 {
 					font-size: 12px;
@@ -37,6 +38,17 @@
 		.tabBody-2dgbAs {
 			border-radius: var(--pox-default-rounding);
 			background-color: var(--background-primary);
+			border: 1px solid rgba(0 0 0 / 30%);
+			box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
+
+			&::before {
+				box-shadow: none;
+			}
+
+			.container-1oAagU,
+			.nowPlayingColumn-1eCBCN {
+				background-color: transparent !important;
+			}
 		}
 
 		.scroller-hE2gWq {
@@ -49,14 +61,17 @@
 		.peopleListItem-u6dGxF,
 		.wrapper-2RrXDg {
 			border-top: 1px solid var(--background-modifier-accent);
-			background: var(--background-modifier-accent);
+			background: var(--background-secondary);
 			padding: 10px;
 			border-radius: 10px;
 			margin: 10px;
+			border: 1px solid rgba(0 0 0 / 30%);
+			box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
 
+			transition: background-color 0.2s ease-in-out;
 			&:hover,
 			.peopleListItem-u6dGxF.active-2UF8Zh {
-				background-color: var(--background-secondary);
+				background-color: var(--background-secondary-alt);
 			}
 		}
 

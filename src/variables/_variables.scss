@@ -22,9 +22,9 @@ a::selection {
 	--pox-version: '1.0.2';
 	--pox-author: 'KoRrNiK#3933';
 
-	--winbutton-max-background: hsl(var(--pox-accent-green));
-	--winbutton-min-background: hsl(var(--pox-accent-yellow));
-	--winbutton-close-background: hsl(var(--pox-accent-red));
+	--winbutton-max-background: var(--pox-accent-green);
+	--winbutton-min-background: var(--pox-accent-yellow);
+	--winbutton-close-background: var(--pox-accent-red);
 
 	--pox-app-rounding: 6px;
 	--pox-app-padding: 18px;

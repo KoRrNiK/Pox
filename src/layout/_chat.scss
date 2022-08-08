@@ -1,4 +1,33 @@
 #app-mount {
+	.search-39IXmY {
+		order: 10;
+		border-radius: var(--pox-default-rounding);
+		background-color: var(--background-secondary);
+		border: 1px solid rgba(0 0 0 / 30%);
+		box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
+	}
+
+	.search-2Mwzzq,
+	.searchBar-jGtisZ {
+		background-color: transparent !important;
+	}
+
+	.full-motion .searchBar-jGtisZ {
+		transition: width 0.25s ease;
+	}
+
+	.toolbar-3_r2xA .clickable-ZD7xvu {
+		.icon-2xnN2Y {
+			transition: color 0.2s ease-in-out;
+			color: var(--text-normal);
+		}
+		&:hover {
+			.icon-2xnN2Y {
+				color: var(--text-muted);
+			}
+		}
+	}
+
 	.chat-2ZfjoI {
 		.group-spacing-16 .divider-IqmEqJ {
 			margin-top: 1rem;
@@ -476,32 +505,6 @@
 				padding-left: 12px !important;
 			}
 
-			/*&.mentioned-Tre-dv .messageContent-2t3eCI {
-				
-				position: relative;
-				background-color: var(--brand-experiment-15a);
-				border: 1px solid var(--brand-experiment-35a);
-				border-radius: var(--pox-app-rounding);
-				transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1) background-color;
-				padding: 5px;
-				
-				&:hover {
-					background-color: var(--background-secondary-alt);
-					border: 1px solid var(--background-secondary-alt);
-				}
-
-				a {
-					color: var(--brand-experiment);
-				}
-
-				.wrapper-1ZcZW- {
-				
-					&:before {
-						display: none;
-					}
-				}
-			}*/
-
 			.messageContent-2t3eCI {
 				overflow: visible;
 
@@ -612,6 +615,9 @@
 			margin-bottom: var(--pox-default-padding);
 			border-radius: var(--pox-default-rounding);
 
+			border: 1px solid rgba(0 0 0 / 30%);
+			box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
+
 			.children-3xh0VB {
 				h3 {
 					font-size: 13px;
@@ -629,6 +635,9 @@
 			border-radius: var(--pox-default-rounding);
 			background-color: var(--background-primary);
 
+			border: 1px solid rgba(0 0 0 / 30%);
+			box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
+
 			&::before {
 				content: none;
 			}
@@ -639,7 +648,11 @@
 				border-top: 1px solid var(--background-modifier-accent);
 				margin-left: 15px;
 				margin-right: 15px;
-				background: var(--background-primary) !important;
+				background: linear-gradient(
+					180deg,
+					var(--background-primary) 50%,
+					transparent
+				) !important;
 
 				.channelTextArea-1FufC0 {
 					border-radius: 0;

@@ -30,4 +30,40 @@
 	.membersGroup-2eiWxl {
 		padding: 15px ​8px 0 16px !important;
 	}
+
+	.member-2gU6Ar {
+		.layout-1qmrhw {
+			padding: 1px;
+			border-radius: var(--pox-default-rounding);
+			background: var(--background-accent);
+			margin-top: 1px;
+			border: 2px solid var(--background-primary);
+			box-shadow: inset 0 0 2px var(--background-tertiary);
+			transition: background-color 0.2s ease-in-out;
+
+			&:hover {
+				background-color: var(--background-secondary);
+			}
+		}
+		.avatar-6qzftW {
+			margin-left: 12px;
+		}
+
+		.content-1U25dZ {
+			.nameAndDecorators-3ERwy2 {
+				.name-3Vmqxm {
+					.username-i5-wv- .username-u-ebrn {
+						font-size: 13.5px;
+					}
+				}
+			}
+			.subText-OGOWMj {
+				.activity-2EQDZv {
+					.activityText-1rR-8O {
+						font-size: 10px;
+					}
+				}
+			}
+		}
+	}
 }

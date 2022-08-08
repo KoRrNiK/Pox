@@ -28,26 +28,26 @@
 	--pox-scroller-thumb: hsl(var(--pox-accent-brand));
 	--pox-scroller-track: hsl(240deg 15% 20%);
 
-	--pox-text-primary: hsl(240deg 15% 91%);
+	--pox-text-primary: hsl(240deg 15% 90%);
 	--pox-text-secondary: hsl(240deg 10% 65%);
-	--pox-text-muted: hsl(240deg 10% 58%);
-	--pox-text-channels: hsl(240deg 10% 62%);
+	--pox-text-muted: hsl(240deg 10% 60%);
+	--pox-text-channels: hsl(240deg 10% 60%);
 
 	--pox-modifier-rgb: 46, 44, 66;
-	--pox-interactive-primary: hsl(240deg 15% 91%);
-	--pox-interactive-secondary: hsl(240deg 10% 73%);
+	--pox-interactive-primary: hsl(240deg 15% 90%);
+	--pox-interactive-secondary: hsl(240deg 10% 75%);
 	--pox-interactive-alt: hsl(240deg 15% 75%);
-	--pox-interactive-muted: hsl(240deg 10% 41%);
+	--pox-interactive-muted: hsl(240deg 10% 40%);
 
-	--pox-accent-brand-saturated: 45, 74%, 97%;
-	--pox-accent-brand: 350, 100%, 74%;
-	--pox-accent-brand-alt: 45, 82%, 27%;
-	--pox-accent-red: 0, 100%, 67%;
-	--pox-accent-orange: 31, 100%, 71%;
-	--pox-accent-yellow: 65, 92%, 76%;
-	--pox-accent-green: 135, 94%, 65%;
-	--pox-accent-green-alt: 135, 72%, 26%;
-	--pox-accent-blue: 191, 97%, 77%;
-	--pox-accent-purple: 256, 89%, 78%;
-	--pox-accent-grey: 245, 11%, 52%;
+	--pox-accent-brand-saturated: 45, 75%, 100%;
+	--pox-accent-brand: 350, 100%, 75%;
+	--pox-accent-brand-alt: 50, 80%, 30%;
+	--pox-accent-red: 0, 100%, 70%;
+	--pox-accent-orange: 30, 100%, 70%;
+	--pox-accent-yellow: 65, 90%, 75%;
+	--pox-accent-green: 130, 95%, 65%;
+	--pox-accent-green-alt: 130, 72%, 25%;
+	--pox-accent-blue: 190, 100%, 80%;
+	--pox-accent-purple: 250, 90%, 80%;
+	--pox-accent-grey: 250, 10%, 45%;
 }

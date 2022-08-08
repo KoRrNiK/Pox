@@ -4,6 +4,18 @@
 		padding-bottom: 125px;
 	}
 
+	.listItem-3SmSlK {
+		width: 56px !important;
+	}
+
+	/*.tutorialContainer-2jwoiB ~ .listItem-3SmSlK {
+		padding-bottom: 120px;
+	}*/
+
+	.expandedFolderBackground-1kSAf6 {
+		left: 4px;
+	}
+
 	.guilds-2JjMmN {
 		left: 4px;
 		width: 80px;
@@ -18,19 +30,37 @@
 			top: 2px;
 		}
 
+		.folder-241Joy:hover {
+			background-color: var(--background-secondary-alt);
+		}
+
 		.scroller-3X7KbA {
-			margin-bottom: 132px;
+			margin-bottom: 10px;
 			padding-top: var(--pox-default-padding);
+			padding-bottom: 200px;
 			contain: unset;
-			background-color: transparent;
+			background-color: var(--background-primary);
+			margin-left: 7px;
+			margin-right: 15px;
+			margin-top: 10px;
+			border-radius: var(--pox-default-rounding);
+			border: 1px solid rgba(0, 0, 0, 0.3);
+			box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			align-content: space-between;
+			align-items: stretch;
+			justify-content: flex-start;
 
 			.wrapper-z5ab_q {
 				.item-2LIpTv {
-					left: 5px;
-					width: 4px;
+					left: 4px;
+					width: 1px;
 					border-radius: 25px;
 					background-color: hsl(var(--pox-accent-brand));
 					transform: none !important;
+					filter: drop-shadow(0 0 5px);
 				}
 			}
 		}

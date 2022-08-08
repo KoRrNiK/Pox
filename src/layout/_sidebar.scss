@@ -3,6 +3,9 @@
 	border-radius: var(--pox-default-rounding) !important;
 	background-color: var(--background-primary);
 
+	border: 1px solid rgba(0 0 0 / 30%);
+	box-shadow: inset 0 0 10px rgb(0 0 0 / 40%);
+
 	.iconBackgroundTierTwo-2XoNXD {
 		border: 1px solid var(--brand-experiment-10a);
 		border-radius: var(--pox-default-rounding);
@@ -11,7 +14,7 @@
 	.container-1NXEtd,
 	.privateChannels-oVe7HL,
 	.scroller-WSmht3 {
-		background-color: transparent;
+		background-color: transparent !important;
 	}
 
 	.sectionDivider-189lqb {
@@ -154,8 +157,12 @@
 
 		.wrapper-NhbLHG .content-1gYQeQ {
 			padding-left: 0;
-			border-radius: var(--container-rounding);
-
+			border-radius: var(--pox-default-rounding);
+			background-color: var(--background-accent);
+			margin-top: 1px;
+			border: 2px solid var(--background-primary);
+			box-shadow: inset 0 0 2px var(--background-tertiary);
+			transition: background-color 0.2s ease-in-out;
 			&::before {
 				content: '';
 				position: relative;
@@ -165,6 +172,10 @@
 				border-radius: 25px;
 				transition: all 250ms ease;
 				background-color: var(--pill-default-background);
+			}
+
+			&:hover {
+				background-color: var(--background-secondary);
 			}
 
 			&:hover::before {
@@ -243,7 +254,18 @@
 		overflow: hidden;
 
 		.interactive-1vLZ_I {
+			padding: 1px;
+			border-radius: var(--pox-default-rounding);
+			background: var(--background-accent);
+			margin-top: 1px;
+			border: 2px solid var(--background-primary);
+			box-shadow: inset 0 0 2px var(--background-tertiary);
+			transition: background-color 0.2s ease-in-out;
 			border-radius: var(--container-rounding);
+
+			&:hover {
+				background-color: var(--background-secondary);
+			}
 
 			&::before {
 				content: '';
@@ -267,6 +289,10 @@
 					height: var(--pill-default-height);
 					margin-right: 7px;
 				}
+			}
+
+			.numberBadge-37OJ3S {
+				margin-right: 5px;
 			}
 
 			.layout-1LjVue {
@@ -336,8 +362,25 @@
 
 	.panels-3wFtMD {
 		margin: 0px 15px -10px;
-		border-top: 1px solid var(--background-modifier-accent);
+		//border-top: 1px solid var(--background-modifier-accent);
 		background-color: transparent;
+
+		&::before {
+			content: '';
+			position: absolute;
+			width: 220px;
+			height: 10px;
+			background: linear-gradient(
+				180deg,
+				transparent,
+				var(--background-primary) 70%
+			);
+			border-radius: var(--pox-default-rounding)
+				var(--pox-default-rounding) 0 0;
+
+			left: 10px;
+			margin-bottom: 20px;
+		}
 
 		.container-YkUktl {
 			margin: 5px;
@@ -351,7 +394,7 @@
 			> .avatarWrapper-1B9FTW {
 				position: fixed;
 				bottom: 58px;
-				left: 376px;
+				left: 380px;
 				z-index: 2;
 				margin: 0;
 				padding: 0;
@@ -377,23 +420,42 @@
 			> .flex-2S1XBF {
 				align-items: center;
 				position: fixed;
-				bottom: 18px;
-				left: 22px;
 				z-index: 1;
-				width: 72px;
-				padding: 40px 0 15px 0;
+
 				flex-direction: column;
+
+				left: 31px;
+				width: 54px;
+				bottom: 30px;
+
+				border-radius: 0 0 var(--pox-default-rounding)
+					var(--pox-default-rounding);
+				border-left: 1px solid rgba(0 0 0 / 20%);
+				border-right: 1px solid rgba(0 0 0 / 20%);
+				box-shadow: inset 0px -3px 5px rgb(0 0 0 / 33%);
 				background: linear-gradient(
 					transparent,
-					var(--background-tertiary) 15%
+					var(--background-primary) 0%
 				);
-				border-radius: var(--pox-default-rounding);
-				display: grid;
-				grid-template-columns: 32px 32px;
-				margin-bottom: 15px;
 
 				button {
-					margin: 5px;
+					margin: 7px;
+				}
+
+				&::before {
+					content: '';
+					position: absolute;
+					left: 3px;
+					width: 50px;
+					height: 50px;
+					top: -20px;
+					background: var(--background-primary);
+					background: linear-gradient(
+						transparent,
+						var(--background-primary) 40%
+					);
+					border-radius: var(--pox-default-rounding)
+						var(--pox-default-rounding) 0 0;
 				}
 			}
 		}
@@ -402,12 +464,25 @@
 		.container-1zzFcN {
 			margin: 0 -15px;
 			border: none;
+
+			.inner-llGtyq {
+				.rtcConnectionStatus-c5A6Av {
+					.labelWrapper-1HofQ- {
+						.contents-3ca1mk {
+							font-size: 12px;
+						}
+					}
+				}
+				a .channel-3prF2u {
+					font-size: 10px;
+				}
+			}
 		}
 
 		.buttonColor-3bP3fX {
 			color: #fff;
 			background-color: var(--button-secondary-background);
-
+			font-size: 12px;
 			&.buttonActive-Uc1jHx {
 				background-color: var(--button-positive-background);
 

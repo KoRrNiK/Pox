@@ -17,9 +17,9 @@
 	--button-green-background-active: hsl(135, 64%, 35%);
 	--button-green-background-disabled: hsl(135, 66%, 53%);
 	--button-grey-background: hsl(var(--pox-accent-grey));
-	--button-grey-background-hover: #918ea6;
-	--button-grey-background-active: #aca9be;
-	--button-grey-background-disabled: #89869d;
+	--button-grey-background-hover: hsl(250, 10%, 40%);
+	--button-grey-background-active: hsl(250, 10%, 50%);
+	--button-grey-background-disabled: hsl(250, 10%, 30%);
 
 	--button-danger-background: var(--button-red-background);
 	--button-danger-background-hover: var(--button-red-background-hover);
