@@ -15,7 +15,7 @@ git clone https://github.com/KoRrNiK/Pox
     - [Chrome Webstore](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
     - [Firefox Addons](https://addons.mozilla.org/en-US/firefox/addon/styl-us)
 2. Once you downloaded the extension, click [this link](https://github.com/KoRrNiK/Pox/raw/main/clients/stylus/pox.user.css).
-3. After opening the page press the `Install Style` button.
+3. After opening the page press the <strong>`Install Style`</strong> button.
 
 ### ✨ Variables ✨
 
@@ -30,7 +30,6 @@ git clone https://github.com/KoRrNiK/Pox
     var(--pox-theme-gradient-color-1),
     var(--pox-theme-gradient-color-2)
 );
-
 --pox-primary: hsl(240deg 15% 15%);
 --pox-secondary: hsl(240deg 15% 20%);
 --pox-alt: hsl(240deg 15% 25%);
@@ -68,7 +67,7 @@ git clone https://github.com/KoRrNiK/Pox
 
 ### ℹ️ Support ℹ️ 
 - For bug reports open a issue here on github with the provided templates.
-- For problems with installing or using the theme, write me a private message on discord: `KoRrNiK#3933`
+- For problems with installing or using the theme, write me a private message on discord: <strong>`KoRrNiK#3933`</strong>
 
 ### 💉 Included Addons 💉
 - [IconsaxDiscord](https://github.com/Lavender-Discord/IconsaxDiscord) - [View License](https://github.com/Lavender-Discord/IconsaxDiscord/blob/main/LICENSE)
@@ -77,4 +76,4 @@ git clone https://github.com/KoRrNiK/Pox
 
 ------------
 
-Made with ❤️ by [KoRrNiK](https://github.com/KoRrNiK/)
+Made with ❤️ by <strong>[KoRrNiK](https://github.com/KoRrNiK/)</strong>
