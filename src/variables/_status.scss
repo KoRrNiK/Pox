@@ -1,0 +1,23 @@
+.theme-dark,
+.theme-dark .root-g14mjS,
+.theme-dark .force-theme.theme-light,
+.theme-light,
+.theme-light .root-g14mjS,
+.theme-light .force-theme.theme-light {
+	--text-danger: hsl(var(--pox-accent-red));
+	--status-danger: hsl(var(--pox-accent-red));
+	--info-danger-background: hsla(var(--pox-accent-red), 0.1);
+	--info-danger-foreground: hsl(var(--pox-accent-red));
+
+	--text-warning: hsl(var(--pox-accent-yellow));
+	--status-warning: hsl(var(--pox-accent-yellow));
+	--info-warning-background: hsla(var(--pox-accent-yellow), 0.1);
+	--info-warning-foreground: hsl(var(--pox-accent-yellow));
+	--status-warning-background: hsl(var(--pox-accent-yellow));
+
+	--text-positive: hsl(var(--pox-accent-green));
+	--status-positive: hsl(var(--pox-accent-green));
+	--status-positive-background: hsl(var(--pox-accent-green));
+	--info-positive-background: hsl(var(--pox-accent-green), 0.1);
+	--info-positive-foreground: hsl(var(--pox-accent-green));
+}

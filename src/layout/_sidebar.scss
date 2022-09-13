@@ -150,6 +150,14 @@
 			}
 		}
 	}
+	.wrapper-1S43wv {
+		margin-left: 8px;
+		border-radius: var(--pox-default-rounding);
+		background-color: var(--background-accent);
+		box-shadow: inset 0 0 2px var(--background-tertiary);
+		transition: background-color 0.2s ease-in-out;
+		text-align: center;
+	}
 
 	.containerDefault-YUSmu3,
 	.containerDragBefore-1s5Qg6 {
@@ -157,12 +165,12 @@
 
 		.wrapper-NhbLHG .content-1gYQeQ {
 			padding-left: 0;
-			border-radius: var(--pox-default-rounding);
+			/*border-radius: var(--pox-default-rounding);
 			background-color: var(--background-accent);
 			margin-top: 1px;
 			border: 2px solid var(--background-primary);
 			box-shadow: inset 0 0 2px var(--background-tertiary);
-			transition: background-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out;*/
 			&::before {
 				content: '';
 				position: relative;
@@ -254,15 +262,6 @@
 		overflow: hidden;
 
 		.interactive-1vLZ_I {
-			padding: 1px;
-			border-radius: var(--pox-default-rounding);
-			background: var(--background-accent);
-			margin-top: 1px;
-			border: 2px solid var(--background-primary);
-			box-shadow: inset 0 0 2px var(--background-tertiary);
-			transition: background-color 0.2s ease-in-out;
-			border-radius: var(--container-rounding);
-
 			&:hover {
 				background-color: var(--background-secondary);
 			}
@@ -320,7 +319,7 @@
 	}
 
 	.avatar-3FKimL {
-		border-radius: var(--avatar-default-rounding);
+		border-radius: 10px;
 	}
 
 	.avatarSpeaking-2pCGrZ {
@@ -365,7 +364,7 @@
 		//border-top: 1px solid var(--background-modifier-accent);
 		background-color: transparent;
 
-		&::before {
+		/*&::before {
 			content: '';
 			position: absolute;
 			width: 220px;
@@ -380,7 +379,7 @@
 
 			left: 10px;
 			margin-bottom: 20px;
-		}
+		}*/
 
 		.container-YkUktl {
 			margin: 5px;
@@ -393,7 +392,7 @@
 
 			> .avatarWrapper-1B9FTW {
 				position: fixed;
-				bottom: 58px;
+				bottom: 60px;
 				left: 380px;
 				z-index: 2;
 				margin: 0;
@@ -405,6 +404,7 @@
 					height: 32px !important;
 					&:hover {
 						opacity: 1;
+						border-radius: var(--pox-default-rounding) !important;
 					}
 
 					& + .nameTag-sc-gpq {

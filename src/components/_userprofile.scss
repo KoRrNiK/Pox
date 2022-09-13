@@ -522,19 +522,11 @@
 				width: 300px;
 				bottom: 0;
 				left: 0;
-				background: var(--background-secondary-alt);
-				background: linear-gradient(
-					180deg,
-					rgba(0 0 0 / 10%) 50%,
-					rgba(0 0 0 / 20%) 100%
-				);
-				-webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="21" viewBox="0 0 300 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 300 7.35388 300 7.35388V21H0Z"/></svg>');
-				mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="21" viewBox="0 0 300 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 300 7.35388 300 7.35388V21H0Z"/></svg>');
-				animation: animate 5s linear infinite;
+				background: var(--background-tertiary);
+				border-top: 1px solid var(--background-primary);
 				animation-delay: 0s;
 				opacity: 1;
 			}
-
 			@keyframes animate {
 				0% {
 					-webkit-mask-position-x: 0;
@@ -549,9 +541,14 @@
 			.headerTagWithNickname-1U8zZH,
 			.setIdentityLink-hOFsMl {
 				.headerTagUsernameBase-XYisdh,
-				.discrimBase-1VOoau {
+				.username-3JLfHz {
 					font-size: 12px;
 					color: var(--text-normal) !important;
+					overflow: hidden;
+				}
+				.discrimBase-1VOoau {
+					font-size: 10px;
+					color: var(--text-muted) !important;
 					overflow: hidden;
 				}
 			}

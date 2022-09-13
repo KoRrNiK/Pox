@@ -1,5 +1,6 @@
 @use 'buttons';
 @use 'brand';
+@use 'status';
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
@@ -31,7 +32,6 @@ a::selection {
 	--pox-default-rounding: 6px;
 	--pox-default-padding: 10px;
 
-	--container-rounding: 6px;
 	--pill-default-height: 20px;
 	--pill-unread-height: 4px;
 	--pill-hover-height: 14px;
@@ -45,8 +45,6 @@ a::selection {
 	--message-mentioned-pill: hsl(var(--pox-accent-orange));
 	--message-mentioned-background: hsla(var(--pox-accent-orange), 0.15);
 	--message-mentioned-background-hover: hsla(var(--pox-accent-orange), 0.2);
-
-	--avatar-default-rounding: 10px;
 }
 
 .theme-dark,
@@ -62,10 +60,6 @@ a::selection {
 	--background-tertiary: var(--pox-tertiary);
 	--background-accent: var(--pox-bgaccent);
 	--background-floating: var(--pox-popouts);
-	--input-background: var(--pox-inputs);
-	--channeltextarea-background: var(--background-tertiary);
-	--modal-background: var(--pox-modals);
-	--modal-footer-background: var(--pox-modals);
 	--background-mobile-primary: var(--background-primary);
 	--background-mobile-secondary: var(--background-secondary);
 	--background-modifier-accent: rgb(var(--pox-modifier-rgb));
@@ -73,6 +67,10 @@ a::selection {
 	--background-modifier-hover: rgba(var(--pox-modifier-rgb), 0.45);
 	--background-modifier-active: rgba(var(--pox-modifier-rgb), 0.6);
 	--background-modifier-selected: rgba(var(--pox-modifier-rgb), 0.8);
+	--input-background: var(--pox-inputs);
+	--channeltextarea-background: var(--background-tertiary);
+	--modal-background: var(--pox-modals);
+	--modal-footer-background: var(--pox-modals);
 
 	--deprecated-card-bg: var(--pox-card);
 	--deprecated-text-input-bg: var(--pox-inputs);
@@ -93,21 +91,4 @@ a::selection {
 	--interactive-active: var(--pox-interactive-primary);
 	--interactive-muted: var(--pox-interactive-muted);
 	--input-placeholder-text: var(--interactive-muted);
-
-	--text-danger: hsl(var(--pox-accent-red));
-	--status-danger: hsl(var(--pox-accent-red));
-	--info-danger-background: hsla(var(--pox-accent-red), 0.1);
-	--info-danger-foreground: hsl(var(--pox-accent-red));
-
-	--text-warning: hsl(var(--pox-accent-yellow));
-	--status-warning: hsl(var(--pox-accent-yellow));
-	--info-warning-background: hsla(var(--pox-accent-yellow), 0.1);
-	--info-warning-foreground: hsl(var(--pox-accent-yellow));
-	--status-warning-background: hsl(var(--pox-accent-yellow));
-
-	--text-positive: hsl(var(--pox-accent-green));
-	--status-positive: hsl(var(--pox-accent-green));
-	--status-positive-background: hsl(var(--pox-accent-green));
-	--info-positive-background: hsl(var(--pox-accent-green), 0.1);
-	--info-positive-foreground: hsl(var(--pox-accent-green));
 }
