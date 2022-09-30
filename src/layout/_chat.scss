@@ -641,6 +641,18 @@
 				content: none;
 			}
 
+			.container-3wLKDe {
+				background-color: transparent !important;
+				border-radius: var(--pox-default-rounding);
+				z-index: 5;
+
+				> div {
+					z-index: 5;
+					margin-bottom: 20px;
+					margin-top: 20px;
+				}
+			}
+
 			.form-3gdLxP {
 				padding-left: 66px;
 				padding-top: 20px;
