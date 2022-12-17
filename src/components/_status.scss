@@ -1,14 +1,6 @@
-$status: 'Logo Twitter' hsla(200, 90%, 50%, 0.2),
-	'Logo Twitch' hsla(260, 80%, 50%, 0.2),
-	'Logo YouTube' hsla(358, 71%, 50%, 0.2),
-	'Logo Battle.net' hsla(200, 100%, 45%, 0.2),
-	'Logo Steam' hsla(0, 0%, 100%, 0.1), 'Logo Reddit' hsla(15, 100%, 50%, 0.2),
-	'Logo Facebook' hsla(200, 90%, 50%, 0.2),
-	'Logo Spotify' hsla(140, 80%, 50%, 0.2),
-	'Logo Xbox Live' hsla(100, 70%, 40%, 0.2),
-	'Logo Xbox' hsla(100, 70%, 40%, 0.2),
-	'Logo League of Legends' hsla(40, 60%, 50%, 0.2),
-	'Logo GitHub' hsla(0, 0%, 100%, 0.2),
+$status: 'Logo Twitter' hsla(200, 90%, 50%, 0.2), 'Logo Twitch' hsla(260, 80%, 50%, 0.2), 'Logo YouTube' hsla(358, 71%, 50%, 0.2), 'Logo Battle.net' hsla(200, 100%, 45%, 0.2),
+	'Logo Steam' hsla(0, 0%, 100%, 0.1), 'Logo Reddit' hsla(15, 100%, 50%, 0.2), 'Logo Facebook' hsla(200, 90%, 50%, 0.2), 'Logo Spotify' hsla(140, 80%, 50%, 0.2),
+	'Logo Xbox Live' hsla(100, 70%, 40%, 0.2), 'Logo Xbox' hsla(100, 70%, 40%, 0.2), 'Logo League of Legends' hsla(40, 60%, 50%, 0.2), 'Logo GitHub' hsla(0, 0%, 100%, 0.2),
 	'Logo PlayStation Network' hsla(203, 100%, 70%, 0.2);
 
 @each $name, $color in $status {

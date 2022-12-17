@@ -8,8 +8,7 @@
 }
 
 #app-mount {
-	.baseLayer-W6S8cY.animating-1rIrGV:not(.stop-animations)
-		+ .animating-1rIrGV {
+	.baseLayer-W6S8cY.animating-1rIrGV:not(.stop-animations) + .animating-1rIrGV {
 		display: none;
 	}
 
@@ -98,31 +97,14 @@
 							}
 							.item-3XjbnG[aria-controls='nitro-server-boost-tab'],
 							.item-3XjbnG[aria-controls='discord-nitro-tab'] {
-								color: hsl(
-									302,
-									calc(var(--saturation-factor, 1) * 100%),
-									72.5%
-								) !important;
+								color: hsl(302, calc(var(--saturation-factor, 1) * 100%), 72.5%) !important;
 
 								.selected-2Uns2B {
-									color: hsl(
-										302,
-										calc(
-											var(--saturation-factor, 1) * 100%
-										),
-										72.5%
-									) !important;
+									color: hsl(302, calc(var(--saturation-factor, 1) * 100%), 72.5%) !important;
 
 									svg {
 										path {
-											fill: hsl(
-												302,
-												calc(
-													var(--saturation-factor, 1) *
-														100%
-												),
-												72.5%
-											) !important;
+											fill: hsl(302, calc(var(--saturation-factor, 1) * 100%), 72.5%) !important;
 										}
 									}
 								}
@@ -133,10 +115,8 @@
 								margin: 3px;
 								transition: background-color 0.2s ease-in-out;
 								&.selected-g-kMVV {
-									border: 1px solid
-										var(--brand-experiment-20a);
-									box-shadow: inset 0 0 3px
-										var(--brand-experiment-30a);
+									border: 1px solid var(--brand-experiment-20a);
+									box-shadow: inset 0 0 3px var(--brand-experiment-30a);
 								}
 							}
 						}
@@ -330,19 +310,11 @@
 }
 
 #themes-tab .bd-addon-controls:after {
-	content: 'Description: A smooth, dark, rounded and compact theme\a\a Theme: Pox\a Style: 'var(
-			--pox-theme-name,
-			'unknown'
-		) '\a Version: 'var(--pox-version, 'unknown') '\a Author: 'var(--pox-author, 'unknown');
+	content: 'Description: A smooth, dark, rounded and compact theme\a\a Theme: Pox\a Style: 'var(--pox-theme-name, 'unknown') '\a Version: 'var(--pox-version, 'unknown') '\a Author: 'var(--pox-author, 'unknown');
 	width: 100%;
 	margin-top: 16px;
 	padding: 16px;
-	background-image: linear-gradient(
-			90deg,
-			hsla(0, 0%, 100%, 0.01) 10%,
-			var(--background-secondary) 50%,
-			hsla(0, 0%, 100%, 0.01) 100%
-		),
+	background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0.01) 10%, var(--background-secondary) 50%, hsla(0, 0%, 100%, 0.01) 100%),
 		url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23FFFFFF' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
 	animation: background-rotate forwards linear infinite 30s;
 	border-radius: var(--pox-app-rounding);
@@ -470,19 +442,11 @@
 
 		.bd-addon-button.bd-button-danger {
 			&:hover {
-				background: hsl(
-					359,
-					calc(var(--saturation-factor, 1) * 82.6%),
-					59.4%
-				);
+				background: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
 			}
 
 			svg {
-				fill: hsl(
-					359,
-					calc(var(--saturation-factor, 1) * 82.6%),
-					59.4%
-				);
+				fill: hsl(359, calc(var(--saturation-factor, 1) * 82.6%), 59.4%);
 				transform: scale(1.2);
 			}
 
@@ -505,8 +469,7 @@
 					opacity: 0;
 					transform: scale(0.9);
 					transform-origin: top center;
-					animation: tooltipBottom 0.1s 1s forwards,
-						bdDescriptionVisibility 0s 1s forwards;
+					animation: tooltipBottom 0.1s 1s forwards, bdDescriptionVisibility 0s 1s forwards;
 					visibility: hidden;
 				}
 			}
@@ -519,8 +482,7 @@
 			margin: 48px 0 0 -4px;
 			max-width: 300px;
 			z-index: 3;
-			padding: calc(var(--pox-default-padding) / 2)
-				var(--pox-default-padding);
+			padding: calc(var(--pox-default-padding) / 2) var(--pox-default-padding);
 			border-radius: var(--pox-default-rounding);
 			background: var(--background-secondary);
 			color: var(--text-normal);
@@ -583,12 +545,7 @@
 			}
 
 			&.bd-switch-checked::after {
-				background-image: linear-gradient(
-						90deg,
-						hsl(154deg 46% 49% / 5%) 10%,
-						var(--background-tertiary) 50%,
-						var(--background-tertiary) 100%
-					),
+				background-image: linear-gradient(90deg, hsl(154deg 46% 49% / 5%) 10%, var(--background-tertiary) 50%, var(--background-tertiary) 100%),
 					url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%2343b583' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
 				animation: background-rotate forwards linear infinite 30s;
 			}
@@ -638,9 +595,7 @@
 			left: -20px;
 			top: -20px;
 			filter: blur(1px);
-			box-shadow: 0 0 80px var(--switch-color),
-				0 0 60px var(--switch-color), 0 0 40px var(--switch-color),
-				0 0 20px var(--switch-color);
+			box-shadow: 0 0 80px var(--switch-color), 0 0 60px var(--switch-color), 0 0 40px var(--switch-color), 0 0 20px var(--switch-color);
 			border-radius: 0 10px 10px 0;
 		}
 
@@ -653,8 +608,7 @@
 			left: -20px;
 			top: -20px;
 			filter: blur(1px);
-			box-shadow: 0 0 80px #ccc, 0 0 60px #ccc, 0 0 40px #ccc,
-				0 0 20px #ccc;
+			box-shadow: 0 0 80px #ccc, 0 0 60px #ccc, 0 0 40px #ccc, 0 0 20px #ccc;
 			border-radius: 0 10px 10px 0;
 		}
 	}
@@ -666,9 +620,7 @@
 }
 
 @media only screen and (max-height: 650px) {
-	#app-mount
-		.layer-86YKbF:not(.baseLayer-W6S8cY)
-		.standardSidebarView-E9Pc3j {
+	#app-mount .layer-86YKbF:not(.baseLayer-W6S8cY) .standardSidebarView-E9Pc3j {
 		min-height: 500px;
 	}
 }

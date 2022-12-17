@@ -45,11 +45,6 @@
 	}
 }
 
-.scroller-WSmht3,
-.searchBar-3TnChZ {
-	background-color: var(--background-primary) !important;
-}
-
 #bd-pub-button {
 	&.wrapper-3kah-n {
 		font-size: 9px;
@@ -58,8 +53,7 @@
 
 .bd-error-modal {
 	.bd-error-modal-header {
-		border-radius: var(--pox-default-rounding) var(--pox-default-rounding) 0
-			0 !important;
+		border-radius: var(--pox-default-rounding) var(--pox-default-rounding) 0 0 !important;
 		margin: 0;
 		padding: 20px;
 		background-color: var(--background-secondary-alt);
@@ -95,20 +89,16 @@
 				box-shadow: inset 0 0 5px var(--background-secondary-alt) !important;
 				.bd-addon-error-header {
 					background-color: var(--background-secondary);
-					border-radius: var(--pox-default-rounding)
-						var(--pox-default-rounding) 0 0;
+					border-radius: var(--pox-default-rounding) var(--pox-default-rounding) 0 0;
 				}
 
 				.bd-addon-error-body {
 					background-color: var(--background-secondary);
-					border-radius: 0 0 var(--pox-default-rounding)
-						var(--pox-default-rounding);
+					border-radius: 0 0 var(--pox-default-rounding) var(--pox-default-rounding);
 				}
 				.bd-addon-error-stack code {
 					border: 1px solid var(--background-primary);
-					background-color: var(
-						--background-secondary-alt
-					) !important;
+					background-color: var(--background-secondary-alt) !important;
 					box-shadow: inset 0 0 5px var(--background-secondary) !important;
 				}
 			}

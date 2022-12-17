@@ -1,20 +1,10 @@
 #app-mount {
 	.wrapper-1z1z-S {
-		background: linear-gradient(
-			45deg,
-			hsla(269 52.7% 52.7% / 40%),
-			hsla(296 50% 51.4% / 40%) 50%,
-			hsla(325 31.7% 51.8% / 40%)
-		);
+		background: linear-gradient(45deg, hsla(269 52.7% 52.7% / 40%), hsla(296 50% 51.4% / 40%) 50%, hsla(325 31.7% 51.8% / 40%));
 
 		.cta-1idp93 {
 			border-radius: var(--pox-default-rounding);
-			background: linear-gradient(
-				45deg,
-				hsla(269 52.7% 52.7% / 60%),
-				hsla(296 50% 51.4% / 60%) 50%,
-				hsla(325 31.7% 51.8% / 60%)
-			);
+			background: linear-gradient(45deg, hsla(269 52.7% 52.7% / 60%), hsla(296 50% 51.4% / 60%) 50%, hsla(325 31.7% 51.8% / 60%));
 			border: 1px solid hsla(325 31.7% 51.8% / 30%);
 			box-shadow: inset 0 0 5px hsla(325 31.7% 51.8% / 80%);
 			margin: 5px;
@@ -138,15 +128,7 @@
 		}
 
 		.banner-1YaD3N {
-			clip-path: polygon(
-				50% 0%,
-				100% 0,
-				100% 70%,
-				80% 90%,
-				20% 90%,
-				0 70%,
-				0 0
-			);
+			clip-path: polygon(50% 0%, 100% 0, 100% 70%, 80% 90%, 20% 90%, 0 70%, 0 0);
 			border-radius: var(--pox-app-rounding);
 			filter: saturate(1.5);
 		}
@@ -324,31 +306,19 @@
 			border-left: 3px solid var(--brand-experiment-50a);
 			box-shadow: inset 0 0 25px var(--background-tertiary);
 			transition: 0.2s all;
-			background-image: linear-gradient(
-					90deg,
-					var(--brand-experiment-05a) 10%,
-					var(--background-tertiary) 50%,
-					var(--background-tertiary) 100%
-				),
+			background-image: linear-gradient(90deg, var(--brand-experiment-05a) 10%, var(--background-tertiary) 50%, var(--background-tertiary) 100%),
 				url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%233F1F43' fill-opacity='0.7' fill-rule='evenodd'/%3E%3C/svg%3E");
 			animation: background-rotate forwards linear infinite 30s;
 
 			&:hover {
 				border-radius: var(--pox-app-rounding);
-				background: linear-gradient(
-					90deg,
-					var(--brand-experiment-10a) 15%,
-					var(--background-tertiary) 55%,
-					var(--background-tertiary) 100%
-				) !important;
+				background: linear-gradient(90deg, var(--brand-experiment-10a) 15%, var(--background-tertiary) 55%, var(--background-tertiary) 100%) !important;
 				border-left: 3px solid var(--brand-experiment-60a) !important;
 				transition: 0.2s all;
 			}
 
 			.listAvatar-2bU5Uh {
-				filter: drop-shadow(0 0 5px var(--background-tertiary)),
-					drop-shadow(0 0 10px var(--background-tertiary)),
-					drop-shadow(0 0 15px var(--background-tertiary)),
+				filter: drop-shadow(0 0 5px var(--background-tertiary)), drop-shadow(0 0 10px var(--background-tertiary)), drop-shadow(0 0 15px var(--background-tertiary)),
 					drop-shadow(0 0 20px var(--background-tertiary));
 			}
 		}
@@ -505,13 +475,8 @@
 		.headerTop-3GPUSF {
 			padding: 60px 16px 16px;
 			background: var(--background-tertiary);
-			border-radius: var(--pox-default-rounding)
-				var(--pox-default-rounding)
-				calc(var(--pox-default-rounding) * 3.5)
-				calc(var(--pox-default-rounding) * 3.5);
-			box-shadow: 0 10px 7px rgba(0 0 0 / 20%),
-				inset 0 -1px 10px rgb(0 0 0 / 40%),
-				0 -5px 15px rgba(0 0 0 / 30%);
+			border-radius: var(--pox-default-rounding) var(--pox-default-rounding) calc(var(--pox-default-rounding) * 3.5) calc(var(--pox-default-rounding) * 3.5);
+			box-shadow: 0 10px 7px rgba(0 0 0 / 20%), inset 0 -1px 10px rgb(0 0 0 / 40%), 0 -5px 15px rgba(0 0 0 / 30%);
 			margin-top: -5px;
 			margin-bottom: 5px;
 			&::before {
@@ -657,16 +622,9 @@
 					margin-left: -3px;
 					margin-right: -3px;
 
-					background: linear-gradient(
-						45deg,
-						var(--background-secondary) 50%,
-						var(--background-secondary-alt) 100%
-					);
+					background: linear-gradient(45deg, var(--background-secondary) 50%, var(--background-secondary-alt) 100%);
 
-					border-radius: var(--pox-app-rounding)
-						var(--pox-app-rounding)
-						calc(var(--pox-app-rounding) / 2)
-						calc(var(--pox-app-rounding) / 2);
+					border-radius: var(--pox-app-rounding) var(--pox-app-rounding) calc(var(--pox-app-rounding) / 2) calc(var(--pox-app-rounding) / 2);
 					padding: 5px;
 					box-shadow: inset 0 0 5px rgb(0 0 0 / 50%);
 					border-top: 1px solid var(--background-tertiary);

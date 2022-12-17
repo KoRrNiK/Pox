@@ -5,8 +5,7 @@
 
 	background: var(--background-tertiary);
 	margin: 0 0 15px;
-	border-radius: 0 0 calc(var(--pox-default-rounding) * 3)
-		calc(var(--pox-default-rounding) * 3);
+	border-radius: 0 0 calc(var(--pox-default-rounding) * 3) calc(var(--pox-default-rounding) * 3);
 
 	border: 1px solid rgba(0 0 0 / 30%);
 	border-top: none !important;
@@ -34,8 +33,7 @@
 			background-color: var(--background-tertiary);
 			letter-spacing: 2px;
 			text-align: center;
-			text-shadow: -6px -3px 25px var(--pox-theme-gradient-color-1),
-				6px 3px 25px var(--pox-theme-gradient-color-2);
+			text-shadow: -6px -3px 25px var(--pox-theme-gradient-color-1), 6px 3px 25px var(--pox-theme-gradient-color-2);
 		}
 
 		svg {
@@ -57,12 +55,9 @@
 			&:hover {
 				color: hsla(var(--winbutton-close-background), 0.9);
 				background-color: hsla(var(--winbutton-close-background), 0.5);
-				box-shadow: inset 0 0 5px
-					hsla(var(--winbutton-close-background), 0.7);
+				box-shadow: inset 0 0 5px hsla(var(--winbutton-close-background), 0.7);
 				svg {
-					filter: drop-shadow(
-						0 0 5px hsla(var(--winbutton-close-background), 0.7)
-					);
+					filter: drop-shadow(0 0 5px hsla(var(--winbutton-close-background), 0.7));
 				}
 			}
 		}
@@ -72,12 +67,9 @@
 			&:hover {
 				color: hsla(var(--winbutton-max-background), 0.9);
 				background-color: hsla(var(--winbutton-max-background), 0.5);
-				box-shadow: inset 0 0 5px
-					hsla(var(--winbutton-max-background), 0.7);
+				box-shadow: inset 0 0 5px hsla(var(--winbutton-max-background), 0.7);
 				svg {
-					filter: drop-shadow(
-						0 0 5px hsla(var(--winbutton-max-background), 0.7)
-					);
+					filter: drop-shadow(0 0 5px hsla(var(--winbutton-max-background), 0.7));
 				}
 			}
 		}
@@ -87,13 +79,10 @@
 			&:hover {
 				color: hsla(var(--winbutton-min-background), 0.9);
 				background-color: hsla(var(--winbutton-min-background), 0.5);
-				box-shadow: inset 0 0 5px
-					hsla(var(--winbutton-min-background), 0.7);
+				box-shadow: inset 0 0 5px hsla(var(--winbutton-min-background), 0.7);
 
 				svg {
-					filter: drop-shadow(
-						0 0 5px hsla(var(--winbutton-min-background), 0.7)
-					);
+					filter: drop-shadow(0 0 5px hsla(var(--winbutton-min-background), 0.7));
 				}
 			}
 		}

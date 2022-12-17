@@ -254,7 +254,6 @@
 		.searchBarComponent-3N7dCG {
 			width: calc(100% + 30px);
 			margin: 0 -15px;
-			background-color: var(--input-background);
 			font-size: 12px;
 		}
 	}
@@ -354,8 +353,7 @@
 	.unread-2wipsx {
 		color: var(--text-normal);
 		border: 1px solid var(--brand-experiment-50a);
-		box-shadow: 0 0 5px var(--brand-experiment-20a),
-			inset 0 0 5px var(--background-floating);
+		box-shadow: 0 0 5px var(--brand-experiment-20a), inset 0 0 5px var(--background-floating);
 		border-radius: var(--pox-default-rounding);
 		background-color: var(--background-primary);
 	}
@@ -429,15 +427,11 @@
 				width: 54px;
 				bottom: 30px;
 
-				border-radius: 0 0 var(--pox-default-rounding)
-					var(--pox-default-rounding);
+				border-radius: 0 0 var(--pox-default-rounding) var(--pox-default-rounding);
 				border-left: 1px solid rgba(0 0 0 / 20%);
 				border-right: 1px solid rgba(0 0 0 / 20%);
 				box-shadow: inset 0px -3px 5px rgb(0 0 0 / 33%);
-				background: linear-gradient(
-					transparent,
-					var(--background-primary) 0%
-				);
+				background: linear-gradient(transparent, var(--background-primary) 0%);
 
 				button {
 					margin: 7px;
@@ -451,12 +445,8 @@
 					height: 50px;
 					top: -20px;
 					background: var(--background-primary);
-					background: linear-gradient(
-						transparent,
-						var(--background-primary) 40%
-					);
-					border-radius: var(--pox-default-rounding)
-						var(--pox-default-rounding) 0 0;
+					background: linear-gradient(transparent, var(--background-primary) 40%);
+					border-radius: var(--pox-default-rounding) var(--pox-default-rounding) 0 0;
 				}
 			}
 		}
