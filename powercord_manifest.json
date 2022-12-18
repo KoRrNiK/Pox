@@ -1,8 +1,8 @@
 {
-    "version": "1.0.2",
-    "author": "KoRrNiK",
-    "name": "Pox",
-    "description": "A smooth, dark, rounded and compact theme.",
-    "license": "MIT",
-    "theme": "src/source.scss"
+	"version": "1.0.3",
+	"author": "KoRrNiK",
+	"name": "Pox",
+	"description": "A smooth, dark, rounded and compact theme.",
+	"license": "MIT",
+	"theme": "src/source.scss"
 }
